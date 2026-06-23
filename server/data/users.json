@@ -38,4 +38,8 @@
     "id": "usr_c627c883-0ce3-458a-a57d-47864e23131b",
     "name": "User New",
     "email": "new@example.com",
-    "password": "$2b$10$TLblnFOmniLEA1FbNSwyZ.hZPYaVMXXv4b7urgqQE0ANIvis
+    "password": "$2b$10$TLblnFOmniLEA1FbNSwyZ.hZPYaVMXXv4b7urgqQE0ANIvisVuqTC",
+    "searchCount": 0,
+    "createdAt": "2026-06-17T17:42:47.991Z"
+  }
+]

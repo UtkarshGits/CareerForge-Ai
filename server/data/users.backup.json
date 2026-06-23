@@ -38,4 +38,7 @@
     "name": "User New",
     "email": "new@example.com",
     "password": "$2b$10$TLblnFOmniLEA1FbNSwyZ.hZPYaVMXXv4b7urgqQE0ANIvisVuqTC",
-    "searchCou
+    "searchCount": 0,
+    "createdAt": "2026-06-17T17:42:47.991Z"
+  }
+]
