@@ -1,0 +1,5 @@
+[
+  { "id": 1, "title": "Two Sum", "diff": "Easy", "topic": "Arrays", "cos": ["Google", "Amazon"] },
+  { "id": 2, "title": "Group Anagrams", "diff": "Medium", "topic": "Hash Map", "cos": ["Microsoft", "Shopify"] },
+  { "id": 3, "title": "Implement Queue using Stacks", "diff": "Medium", "topic": "Stack", "cos": ["Apple", "Google"] }
+]

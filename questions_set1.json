@@ -1,0 +1,5 @@
+[
+  { "id": 1, "title": "Two Sum", "diff": "Easy", "topic": "Arrays", "cos": ["Google", "Amazon"] },
+  { "id": 2, "title": "Reverse String", "diff": "Easy", "topic": "Strings", "cos": ["Meta", "Apple"] },
+  { "id": 3, "title": "Binary Search", "diff": "Easy", "topic": "Binary Search", "cos": ["Google", "Microsoft"] }
+]

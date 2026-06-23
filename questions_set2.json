@@ -1,0 +1,5 @@
+[
+  { "id": 1, "title": "Reverse Linked List", "diff": "Easy", "topic": "Linked List", "cos": ["Amazon", "Microsoft"] },
+  { "id": 2, "title": "Valid Parentheses", "diff": "Easy", "topic": "Stack", "cos": ["Adobe", "Uber"] },
+  { "id": 3, "title": "Merge Intervals", "diff": "Medium", "topic": "Arrays", "cos": ["Meta", "Uber"] }
+]

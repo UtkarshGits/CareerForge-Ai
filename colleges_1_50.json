@@ -1,0 +1,1568 @@
+[
+  {
+    "name": "Indian Institute of Technology Madras",
+    "city": "Chennai",
+    "type": "Government",
+    "location": "Tamil Nadu",
+    "courses": [
+      "B.Tech CSE",
+      "B.Tech ECE",
+      "B.Tech IT"
+    ],
+    "eligibility": {
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech ECE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance"
+    },
+    "contact": "+91-9000000000",
+    "website": "https://www.iitm.ac.in",
+    "averagePackageLPA": 24.7,
+    "highestPackageLPA": 160,
+    "placementPercentage": 98.2,
+    "topRecruiters": [
+      "Google",
+      "Meta",
+      "Wipro",
+      "Capgemini"
+    ]
+  },
+  {
+    "name": "Indian Institute of Technology Delhi",
+    "city": "New Delhi",
+    "type": "Government",
+    "location": "Delhi",
+    "courses": [
+      "B.Tech ECE",
+      "B.Tech IT",
+      "B.Tech EE",
+      "M.Tech"
+    ],
+    "eligibility": {
+      "B.Tech ECE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech EE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified"
+    },
+    "contact": "+91-9000004321",
+    "website": "https://www.iitd.ac.in",
+    "averagePackageLPA": 25.8,
+    "highestPackageLPA": 150,
+    "placementPercentage": 97.5,
+    "topRecruiters": [
+      "Microsoft",
+      "TCS",
+      "Cognizant",
+      "Deloitte",
+      "PwC"
+    ]
+  },
+  {
+    "name": "Indian Institute of Technology Bombay",
+    "city": "Mumbai",
+    "type": "Government",
+    "location": "Maharashtra",
+    "courses": [
+      "B.Tech IT",
+      "B.Tech EE",
+      "M.Tech",
+      "MBA",
+      "MCA"
+    ],
+    "eligibility": {
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech EE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified",
+      "MBA": "Graduation with 50% + CAT / MAT / CMAT score",
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test"
+    },
+    "contact": "+91-9000008642",
+    "website": "https://www.iitb.ac.in",
+    "averagePackageLPA": 26.5,
+    "highestPackageLPA": 180,
+    "placementPercentage": 98.5,
+    "topRecruiters": [
+      "Amazon",
+      "Infosys",
+      "Accenture",
+      "Goldman Sachs",
+      "HCL",
+      "Salesforce"
+    ]
+  },
+  {
+    "name": "Indian Institute of Technology Kanpur",
+    "city": "Kanpur",
+    "type": "Government",
+    "location": "Uttar Pradesh",
+    "courses": [
+      "B.Tech EE",
+      "M.Tech",
+      "MBA",
+      "MCA",
+      "BCA",
+      "BBA"
+    ],
+    "eligibility": {
+      "B.Tech EE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified",
+      "MBA": "Graduation with 50% + CAT / MAT / CMAT score",
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test",
+      "BCA": "12th standard with 50% minimum marks",
+      "BBA": "12th standard with 50% minimum marks"
+    },
+    "contact": "+91-9000012963",
+    "website": "https://www.iitk.ac.in",
+    "averagePackageLPA": 22,
+    "highestPackageLPA": 140,
+    "placementPercentage": 96,
+    "topRecruiters": [
+      "Meta",
+      "Wipro",
+      "Capgemini",
+      "J.P. Morgan",
+      "Tech Mahindra",
+      "Google"
+    ]
+  },
+  {
+    "name": "Indian Institute of Technology Kharagpur",
+    "city": "Kharagpur",
+    "type": "Government",
+    "location": "West Bengal",
+    "courses": [
+      "M.Tech",
+      "MBA",
+      "MCA"
+    ],
+    "eligibility": {
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified",
+      "MBA": "Graduation with 50% + CAT / MAT / CMAT score",
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test"
+    },
+    "contact": "+91-9000017284",
+    "website": "https://www.iitkgp.ac.in",
+    "averagePackageLPA": 21.5,
+    "highestPackageLPA": 135,
+    "placementPercentage": 95.8,
+    "topRecruiters": [
+      "TCS",
+      "Cognizant",
+      "Deloitte",
+      "PwC",
+      "Adobe",
+      "Microsoft"
+    ]
+  },
+  {
+    "name": "Indian Institute of Technology Roorkee",
+    "city": "Roorkee",
+    "type": "Government",
+    "location": "Uttarakhand",
+    "courses": [
+      "MBA",
+      "MCA",
+      "BCA",
+      "BBA"
+    ],
+    "eligibility": {
+      "MBA": "Graduation with 50% + CAT / MAT / CMAT score",
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test",
+      "BCA": "12th standard with 50% minimum marks",
+      "BBA": "12th standard with 50% minimum marks"
+    },
+    "contact": "+91-9000021605",
+    "website": "https://www.iitr.ac.in",
+    "averagePackageLPA": 20.8,
+    "highestPackageLPA": 130,
+    "placementPercentage": 95,
+    "topRecruiters": [
+      "Infosys",
+      "Accenture",
+      "Goldman Sachs",
+      "HCL"
+    ]
+  },
+  {
+    "name": "Indian Institute of Technology Guwahati",
+    "city": "Guwahati",
+    "type": "Government",
+    "location": "Assam",
+    "courses": [
+      "MCA",
+      "BCA",
+      "BBA",
+      "B.Sc CS",
+      "B.Tech CSE"
+    ],
+    "eligibility": {
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test",
+      "BCA": "12th standard with 50% minimum marks",
+      "BBA": "12th standard with 50% minimum marks",
+      "B.Sc CS": "12th standard with 50% minimum marks",
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance"
+    },
+    "contact": "+91-9000025926",
+    "website": "https://www.iitg.ac.in",
+    "averagePackageLPA": 19.5,
+    "highestPackageLPA": 125,
+    "placementPercentage": 94.5,
+    "topRecruiters": [
+      "Wipro",
+      "Capgemini",
+      "J.P. Morgan",
+      "Tech Mahindra",
+      "Google"
+    ]
+  },
+  {
+    "name": "Indian Institute of Technology Hyderabad",
+    "city": "Hyderabad",
+    "type": "Government",
+    "location": "Telangana",
+    "courses": [
+      "BCA",
+      "BBA",
+      "B.Sc CS",
+      "B.Tech CSE",
+      "B.Tech ECE",
+      "B.Tech IT"
+    ],
+    "eligibility": {
+      "BCA": "12th standard with 50% minimum marks",
+      "BBA": "12th standard with 50% minimum marks",
+      "B.Sc CS": "12th standard with 50% minimum marks",
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech ECE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance"
+    },
+    "contact": "+91-9000030247",
+    "website": "https://www.iith.ac.in",
+    "averagePackageLPA": 20.2,
+    "highestPackageLPA": 120,
+    "placementPercentage": 94,
+    "topRecruiters": [
+      "Cognizant",
+      "Deloitte",
+      "PwC",
+      "Adobe",
+      "Microsoft",
+      "TCS"
+    ]
+  },
+  {
+    "name": "Indian Institute of Technology BHU",
+    "city": "Varanasi",
+    "type": "Government",
+    "location": "Uttar Pradesh",
+    "courses": [
+      "BBA",
+      "B.Sc CS",
+      "B.Tech CSE"
+    ],
+    "eligibility": {
+      "BBA": "12th standard with 50% minimum marks",
+      "B.Sc CS": "12th standard with 50% minimum marks",
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance"
+    },
+    "contact": "+91-9000034568",
+    "website": "https://www.iitbhu.ac.in",
+    "averagePackageLPA": 18.9,
+    "highestPackageLPA": 115,
+    "placementPercentage": 93.5,
+    "topRecruiters": [
+      "Accenture",
+      "Goldman Sachs",
+      "HCL",
+      "Salesforce",
+      "Amazon",
+      "Infosys"
+    ]
+  },
+  {
+    "name": "Indian Institute of Technology ISM Dhanbad",
+    "city": "Dhanbad",
+    "type": "Government",
+    "location": "Jharkhand",
+    "courses": [
+      "B.Sc CS",
+      "B.Tech CSE",
+      "B.Tech ECE",
+      "B.Tech IT"
+    ],
+    "eligibility": {
+      "B.Sc CS": "12th standard with 50% minimum marks",
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech ECE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance"
+    },
+    "contact": "+91-9000038889",
+    "website": "https://www.iitism.ac.in",
+    "averagePackageLPA": 17.5,
+    "highestPackageLPA": 110,
+    "placementPercentage": 92.8,
+    "topRecruiters": [
+      "Capgemini",
+      "J.P. Morgan",
+      "Tech Mahindra",
+      "Google",
+      "Meta",
+      "Wipro"
+    ]
+  },
+  {
+    "name": "National Institute of Technology Trichy",
+    "city": "Tiruchirappalli",
+    "type": "Government",
+    "location": "Tamil Nadu",
+    "courses": [
+      "B.Tech CSE",
+      "B.Tech ECE",
+      "B.Tech IT",
+      "B.Tech EE",
+      "M.Tech"
+    ],
+    "eligibility": {
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech ECE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech EE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified"
+    },
+    "contact": "+91-9000043210",
+    "website": "https://www.nitt.edu",
+    "averagePackageLPA": 18,
+    "highestPackageLPA": 95,
+    "placementPercentage": 97,
+    "topRecruiters": [
+      "Deloitte",
+      "PwC",
+      "Adobe",
+      "Microsoft"
+    ]
+  },
+  {
+    "name": "National Institute of Technology Surathkal",
+    "city": "Mangaluru",
+    "type": "Government",
+    "location": "Karnataka",
+    "courses": [
+      "B.Tech ECE",
+      "B.Tech IT",
+      "B.Tech EE",
+      "M.Tech",
+      "MBA",
+      "MCA"
+    ],
+    "eligibility": {
+      "B.Tech ECE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech EE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified",
+      "MBA": "Graduation with 50% + CAT / MAT / CMAT score",
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test"
+    },
+    "contact": "+91-9000047531",
+    "website": "https://www.nitk.ac.in",
+    "averagePackageLPA": 17.2,
+    "highestPackageLPA": 90,
+    "placementPercentage": 96.5,
+    "topRecruiters": [
+      "Goldman Sachs",
+      "HCL",
+      "Salesforce",
+      "Amazon",
+      "Infosys"
+    ]
+  },
+  {
+    "name": "National Institute of Technology Warangal",
+    "city": "Warangal",
+    "type": "Government",
+    "location": "Telangana",
+    "courses": [
+      "B.Tech IT",
+      "B.Tech EE",
+      "M.Tech"
+    ],
+    "eligibility": {
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech EE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified"
+    },
+    "contact": "+91-9000051852",
+    "website": "https://www.nitw.ac.in",
+    "averagePackageLPA": 16.8,
+    "highestPackageLPA": 88,
+    "placementPercentage": 96,
+    "topRecruiters": [
+      "J.P. Morgan",
+      "Tech Mahindra",
+      "Google",
+      "Meta",
+      "Wipro",
+      "Capgemini"
+    ]
+  },
+  {
+    "name": "National Institute of Technology Calicut",
+    "city": "Kozhikode",
+    "type": "Government",
+    "location": "Kerala",
+    "courses": [
+      "B.Tech EE",
+      "M.Tech",
+      "MBA",
+      "MCA"
+    ],
+    "eligibility": {
+      "B.Tech EE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified",
+      "MBA": "Graduation with 50% + CAT / MAT / CMAT score",
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test"
+    },
+    "contact": "+91-9000056173",
+    "website": "https://www.nitc.ac.in",
+    "averagePackageLPA": 15.5,
+    "highestPackageLPA": 80,
+    "placementPercentage": 95.2,
+    "topRecruiters": [
+      "PwC",
+      "Adobe",
+      "Microsoft",
+      "TCS",
+      "Cognizant",
+      "Deloitte"
+    ]
+  },
+  {
+    "name": "National Institute of Technology Rourkela",
+    "city": "Rourkela",
+    "type": "Government",
+    "location": "Odisha",
+    "courses": [
+      "M.Tech",
+      "MBA",
+      "MCA",
+      "BCA",
+      "BBA"
+    ],
+    "eligibility": {
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified",
+      "MBA": "Graduation with 50% + CAT / MAT / CMAT score",
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test",
+      "BCA": "12th standard with 50% minimum marks",
+      "BBA": "12th standard with 50% minimum marks"
+    },
+    "contact": "+91-9000060494",
+    "website": "https://www.nitrkl.ac.in",
+    "averagePackageLPA": 14.8,
+    "highestPackageLPA": 78,
+    "placementPercentage": 94.8,
+    "topRecruiters": [
+      "HCL",
+      "Salesforce",
+      "Amazon",
+      "Infosys",
+      "Accenture",
+      "Goldman Sachs"
+    ]
+  },
+  {
+    "name": "Motilal Nehru National Institute of Technology",
+    "city": "Allahabad",
+    "type": "Government",
+    "location": "Uttar Pradesh",
+    "courses": [
+      "MBA",
+      "MCA",
+      "BCA",
+      "BBA",
+      "B.Sc CS",
+      "B.Tech CSE"
+    ],
+    "eligibility": {
+      "MBA": "Graduation with 50% + CAT / MAT / CMAT score",
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test",
+      "BCA": "12th standard with 50% minimum marks",
+      "BBA": "12th standard with 50% minimum marks",
+      "B.Sc CS": "12th standard with 50% minimum marks",
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance"
+    },
+    "contact": "+91-9000064815",
+    "website": "https://www.mnnit.ac.in",
+    "averagePackageLPA": 14.2,
+    "highestPackageLPA": 75,
+    "placementPercentage": 94,
+    "topRecruiters": [
+      "Tech Mahindra",
+      "Google",
+      "Meta",
+      "Wipro"
+    ]
+  },
+  {
+    "name": "Visvesvaraya National Institute of Technology",
+    "city": "Nagpur",
+    "type": "Government",
+    "location": "Maharashtra",
+    "courses": [
+      "MCA",
+      "BCA",
+      "BBA"
+    ],
+    "eligibility": {
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test",
+      "BCA": "12th standard with 50% minimum marks",
+      "BBA": "12th standard with 50% minimum marks"
+    },
+    "contact": "+91-9000069136",
+    "website": "https://www.vnit.ac.in",
+    "averagePackageLPA": 13.5,
+    "highestPackageLPA": 70,
+    "placementPercentage": 93.5,
+    "topRecruiters": [
+      "Adobe",
+      "Microsoft",
+      "TCS",
+      "Cognizant",
+      "Deloitte"
+    ]
+  },
+  {
+    "name": "Malaviya National Institute of Technology",
+    "city": "Jaipur",
+    "type": "Government",
+    "location": "Rajasthan",
+    "courses": [
+      "BCA",
+      "BBA",
+      "B.Sc CS",
+      "B.Tech CSE"
+    ],
+    "eligibility": {
+      "BCA": "12th standard with 50% minimum marks",
+      "BBA": "12th standard with 50% minimum marks",
+      "B.Sc CS": "12th standard with 50% minimum marks",
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance"
+    },
+    "contact": "+91-9000073457",
+    "website": "https://www.mnit.ac.in",
+    "averagePackageLPA": 13,
+    "highestPackageLPA": 68,
+    "placementPercentage": 93,
+    "topRecruiters": [
+      "Salesforce",
+      "Amazon",
+      "Infosys",
+      "Accenture",
+      "Goldman Sachs",
+      "HCL"
+    ]
+  },
+  {
+    "name": "Maulana Azad National Institute of Technology",
+    "city": "Bhopal",
+    "type": "Government",
+    "location": "Madhya Pradesh",
+    "courses": [
+      "BBA",
+      "B.Sc CS",
+      "B.Tech CSE",
+      "B.Tech ECE",
+      "B.Tech IT"
+    ],
+    "eligibility": {
+      "BBA": "12th standard with 50% minimum marks",
+      "B.Sc CS": "12th standard with 50% minimum marks",
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech ECE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance"
+    },
+    "contact": "+91-9000077778",
+    "website": "https://www.manit.ac.in",
+    "averagePackageLPA": 12.5,
+    "highestPackageLPA": 65,
+    "placementPercentage": 92.5,
+    "topRecruiters": [
+      "Google",
+      "Meta",
+      "Wipro",
+      "Capgemini",
+      "J.P. Morgan",
+      "Tech Mahindra"
+    ]
+  },
+  {
+    "name": "Sardar Vallabhbhai National Institute of Technology",
+    "city": "Surat",
+    "type": "Government",
+    "location": "Gujarat",
+    "courses": [
+      "B.Sc CS",
+      "B.Tech CSE",
+      "B.Tech ECE",
+      "B.Tech IT",
+      "B.Tech EE",
+      "M.Tech"
+    ],
+    "eligibility": {
+      "B.Sc CS": "12th standard with 50% minimum marks",
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech ECE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech EE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified"
+    },
+    "contact": "+91-9000082099",
+    "website": "https://www.svnit.ac.in",
+    "averagePackageLPA": 12,
+    "highestPackageLPA": 62,
+    "placementPercentage": 92,
+    "topRecruiters": [
+      "Microsoft",
+      "TCS",
+      "Cognizant",
+      "Deloitte",
+      "PwC",
+      "Adobe"
+    ]
+  },
+  {
+    "name": "Delhi Technological University",
+    "city": "New Delhi",
+    "type": "Government",
+    "location": "Delhi",
+    "courses": [
+      "B.Tech CSE",
+      "B.Tech ECE",
+      "B.Tech IT"
+    ],
+    "eligibility": {
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech ECE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance"
+    },
+    "contact": "+91-9000086420",
+    "website": "https://www.dtu.ac.in",
+    "averagePackageLPA": 15.3,
+    "highestPackageLPA": 120,
+    "placementPercentage": 91,
+    "topRecruiters": [
+      "Amazon",
+      "Infosys",
+      "Accenture",
+      "Goldman Sachs"
+    ]
+  },
+  {
+    "name": "Netaji Subhas University of Technology",
+    "city": "New Delhi",
+    "type": "Government",
+    "location": "Delhi",
+    "courses": [
+      "B.Tech ECE",
+      "B.Tech IT",
+      "B.Tech EE",
+      "M.Tech"
+    ],
+    "eligibility": {
+      "B.Tech ECE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech EE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified"
+    },
+    "contact": "+91-9000090741",
+    "website": "https://www.nsut.ac.in",
+    "averagePackageLPA": 16,
+    "highestPackageLPA": 125,
+    "placementPercentage": 92,
+    "topRecruiters": [
+      "Meta",
+      "Wipro",
+      "Capgemini",
+      "J.P. Morgan",
+      "Tech Mahindra"
+    ]
+  },
+  {
+    "name": "Indraprastha Institute of Information Technology Delhi",
+    "city": "New Delhi",
+    "type": "Government",
+    "location": "Delhi",
+    "courses": [
+      "B.Tech IT",
+      "B.Tech EE",
+      "M.Tech",
+      "MBA",
+      "MCA"
+    ],
+    "eligibility": {
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech EE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified",
+      "MBA": "Graduation with 50% + CAT / MAT / CMAT score",
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test"
+    },
+    "contact": "+91-9000095062",
+    "website": "https://www.iiitd.ac.in",
+    "averagePackageLPA": 20.5,
+    "highestPackageLPA": 82.8,
+    "placementPercentage": 96.5,
+    "topRecruiters": [
+      "TCS",
+      "Cognizant",
+      "Deloitte",
+      "PwC",
+      "Adobe",
+      "Microsoft"
+    ]
+  },
+  {
+    "name": "Indian Institute of Information Technology Allahabad",
+    "city": "Prayagraj",
+    "type": "Government",
+    "location": "Uttar Pradesh",
+    "courses": [
+      "B.Tech EE",
+      "M.Tech",
+      "MBA",
+      "MCA",
+      "BCA",
+      "BBA"
+    ],
+    "eligibility": {
+      "B.Tech EE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified",
+      "MBA": "Graduation with 50% + CAT / MAT / CMAT score",
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test",
+      "BCA": "12th standard with 50% minimum marks",
+      "BBA": "12th standard with 50% minimum marks"
+    },
+    "contact": "+91-9000099383",
+    "website": "https://www.iiita.ac.in",
+    "averagePackageLPA": 22.5,
+    "highestPackageLPA": 110,
+    "placementPercentage": 98,
+    "topRecruiters": [
+      "Infosys",
+      "Accenture",
+      "Goldman Sachs",
+      "HCL",
+      "Salesforce",
+      "Amazon"
+    ]
+  },
+  {
+    "name": "Indian Institute of Information Technology Gwalior",
+    "city": "Gwalior",
+    "type": "Government",
+    "location": "Madhya Pradesh",
+    "courses": [
+      "M.Tech",
+      "MBA",
+      "MCA"
+    ],
+    "eligibility": {
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified",
+      "MBA": "Graduation with 50% + CAT / MAT / CMAT score",
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test"
+    },
+    "contact": "+91-9000103704",
+    "website": "https://www.iiitm.ac.in",
+    "averagePackageLPA": 18.5,
+    "highestPackageLPA": 90,
+    "placementPercentage": 96,
+    "topRecruiters": [
+      "Wipro",
+      "Capgemini",
+      "J.P. Morgan",
+      "Tech Mahindra",
+      "Google",
+      "Meta"
+    ]
+  },
+  {
+    "name": "National Institute of Technology Durgapur",
+    "city": "Durgapur",
+    "type": "Government",
+    "location": "West Bengal",
+    "courses": [
+      "MBA",
+      "MCA",
+      "BCA",
+      "BBA"
+    ],
+    "eligibility": {
+      "MBA": "Graduation with 50% + CAT / MAT / CMAT score",
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test",
+      "BCA": "12th standard with 50% minimum marks",
+      "BBA": "12th standard with 50% minimum marks"
+    },
+    "contact": "+91-9000108025",
+    "website": "https://www.nitdgp.ac.in",
+    "averagePackageLPA": 11.8,
+    "highestPackageLPA": 58,
+    "placementPercentage": 91.2,
+    "topRecruiters": [
+      "Cognizant",
+      "Deloitte",
+      "PwC",
+      "Adobe"
+    ]
+  },
+  {
+    "name": "National Institute of Technology Kurukshetra",
+    "city": "Kurukshetra",
+    "type": "Government",
+    "location": "Haryana",
+    "courses": [
+      "MCA",
+      "BCA",
+      "BBA",
+      "B.Sc CS",
+      "B.Tech CSE"
+    ],
+    "eligibility": {
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test",
+      "BCA": "12th standard with 50% minimum marks",
+      "BBA": "12th standard with 50% minimum marks",
+      "B.Sc CS": "12th standard with 50% minimum marks",
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance"
+    },
+    "contact": "+91-9000112346",
+    "website": "https://www.nitkkr.ac.in",
+    "averagePackageLPA": 13.2,
+    "highestPackageLPA": 65,
+    "placementPercentage": 93,
+    "topRecruiters": [
+      "Accenture",
+      "Goldman Sachs",
+      "HCL",
+      "Salesforce",
+      "Amazon"
+    ]
+  },
+  {
+    "name": "National Institute of Technology Jamshedpur",
+    "city": "Jamshedpur",
+    "type": "Government",
+    "location": "Jharkhand",
+    "courses": [
+      "BCA",
+      "BBA",
+      "B.Sc CS",
+      "B.Tech CSE",
+      "B.Tech ECE",
+      "B.Tech IT"
+    ],
+    "eligibility": {
+      "BCA": "12th standard with 50% minimum marks",
+      "BBA": "12th standard with 50% minimum marks",
+      "B.Sc CS": "12th standard with 50% minimum marks",
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech ECE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance"
+    },
+    "contact": "+91-9000116667",
+    "website": "https://www.nitjsr.ac.in",
+    "averagePackageLPA": 12.8,
+    "highestPackageLPA": 60,
+    "placementPercentage": 92.8,
+    "topRecruiters": [
+      "Capgemini",
+      "J.P. Morgan",
+      "Tech Mahindra",
+      "Google",
+      "Meta",
+      "Wipro"
+    ]
+  },
+  {
+    "name": "National Institute of Technology Silchar",
+    "city": "Silchar",
+    "type": "Government",
+    "location": "Assam",
+    "courses": [
+      "BBA",
+      "B.Sc CS",
+      "B.Tech CSE"
+    ],
+    "eligibility": {
+      "BBA": "12th standard with 50% minimum marks",
+      "B.Sc CS": "12th standard with 50% minimum marks",
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance"
+    },
+    "contact": "+91-9000120988",
+    "website": "https://www.nits.ac.in",
+    "averagePackageLPA": 11.5,
+    "highestPackageLPA": 55,
+    "placementPercentage": 90.5,
+    "topRecruiters": [
+      "Deloitte",
+      "PwC",
+      "Adobe",
+      "Microsoft",
+      "TCS",
+      "Cognizant"
+    ]
+  },
+  {
+    "name": "National Institute of Technology Raipur",
+    "city": "Raipur",
+    "type": "Government",
+    "location": "Chhattisgarh",
+    "courses": [
+      "B.Sc CS",
+      "B.Tech CSE",
+      "B.Tech ECE",
+      "B.Tech IT"
+    ],
+    "eligibility": {
+      "B.Sc CS": "12th standard with 50% minimum marks",
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech ECE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance"
+    },
+    "contact": "+91-9000125309",
+    "website": "https://www.nitrr.ac.in",
+    "averagePackageLPA": 10.5,
+    "highestPackageLPA": 50,
+    "placementPercentage": 89.5,
+    "topRecruiters": [
+      "Goldman Sachs",
+      "HCL",
+      "Salesforce",
+      "Amazon",
+      "Infosys",
+      "Accenture"
+    ]
+  },
+  {
+    "name": "National Institute of Technology Hamirpur",
+    "city": "Hamirpur",
+    "type": "Government",
+    "location": "Himachal Pradesh",
+    "courses": [
+      "B.Tech CSE",
+      "B.Tech ECE",
+      "B.Tech IT",
+      "B.Tech EE",
+      "M.Tech"
+    ],
+    "eligibility": {
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech ECE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech EE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified"
+    },
+    "contact": "+91-9000129630",
+    "website": "https://nith.ac.in",
+    "averagePackageLPA": 10.8,
+    "highestPackageLPA": 52,
+    "placementPercentage": 90,
+    "topRecruiters": [
+      "J.P. Morgan",
+      "Tech Mahindra",
+      "Google",
+      "Meta"
+    ]
+  },
+  {
+    "name": "National Institute of Technology Jalandhar",
+    "city": "Jalandhar",
+    "type": "Government",
+    "location": "Punjab",
+    "courses": [
+      "B.Tech ECE",
+      "B.Tech IT",
+      "B.Tech EE",
+      "M.Tech",
+      "MBA",
+      "MCA"
+    ],
+    "eligibility": {
+      "B.Tech ECE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech EE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified",
+      "MBA": "Graduation with 50% + CAT / MAT / CMAT score",
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test"
+    },
+    "contact": "+91-9000133951",
+    "website": "https://www.nitj.ac.in",
+    "averagePackageLPA": 11.2,
+    "highestPackageLPA": 54,
+    "placementPercentage": 90.8,
+    "topRecruiters": [
+      "PwC",
+      "Adobe",
+      "Microsoft",
+      "TCS",
+      "Cognizant"
+    ]
+  },
+  {
+    "name": "National Institute of Technology Patna",
+    "city": "Patna",
+    "type": "Government",
+    "location": "Bihar",
+    "courses": [
+      "B.Tech IT",
+      "B.Tech EE",
+      "M.Tech"
+    ],
+    "eligibility": {
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech EE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified"
+    },
+    "contact": "+91-9000138272",
+    "website": "https://www.nitp.ac.in",
+    "averagePackageLPA": 9.8,
+    "highestPackageLPA": 48,
+    "placementPercentage": 88.5,
+    "topRecruiters": [
+      "HCL",
+      "Salesforce",
+      "Amazon",
+      "Infosys",
+      "Accenture",
+      "Goldman Sachs"
+    ]
+  },
+  {
+    "name": "National Institute of Technology Goa",
+    "city": "Ponda",
+    "type": "Government",
+    "location": "Goa",
+    "courses": [
+      "B.Tech EE",
+      "M.Tech",
+      "MBA",
+      "MCA"
+    ],
+    "eligibility": {
+      "B.Tech EE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified",
+      "MBA": "Graduation with 50% + CAT / MAT / CMAT score",
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test"
+    },
+    "contact": "+91-9000142593",
+    "website": "https://www.nitgoa.ac.in",
+    "averagePackageLPA": 11.4,
+    "highestPackageLPA": 50,
+    "placementPercentage": 91,
+    "topRecruiters": [
+      "Tech Mahindra",
+      "Google",
+      "Meta",
+      "Wipro",
+      "Capgemini",
+      "J.P. Morgan"
+    ]
+  },
+  {
+    "name": "National Institute of Technology Srinagar",
+    "city": "Srinagar",
+    "type": "Government",
+    "location": "Jammu and Kashmir",
+    "courses": [
+      "M.Tech",
+      "MBA",
+      "MCA",
+      "BCA",
+      "BBA"
+    ],
+    "eligibility": {
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified",
+      "MBA": "Graduation with 50% + CAT / MAT / CMAT score",
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test",
+      "BCA": "12th standard with 50% minimum marks",
+      "BBA": "12th standard with 50% minimum marks"
+    },
+    "contact": "+91-9000146914",
+    "website": "https://nitsri.ac.in",
+    "averagePackageLPA": 9.2,
+    "highestPackageLPA": 45,
+    "placementPercentage": 87,
+    "topRecruiters": [
+      "Adobe",
+      "Microsoft",
+      "TCS",
+      "Cognizant",
+      "Deloitte",
+      "PwC"
+    ]
+  },
+  {
+    "name": "Indian Institute of Information Technology Lucknow",
+    "city": "Lucknow",
+    "type": "Government",
+    "location": "Uttar Pradesh",
+    "courses": [
+      "MBA",
+      "MCA",
+      "BCA",
+      "BBA",
+      "B.Sc CS",
+      "B.Tech CSE"
+    ],
+    "eligibility": {
+      "MBA": "Graduation with 50% + CAT / MAT / CMAT score",
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test",
+      "BCA": "12th standard with 50% minimum marks",
+      "BBA": "12th standard with 50% minimum marks",
+      "B.Sc CS": "12th standard with 50% minimum marks",
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance"
+    },
+    "contact": "+91-9000151235",
+    "website": "https://www.iiitl.ac.in",
+    "averagePackageLPA": 19.8,
+    "highestPackageLPA": 80,
+    "placementPercentage": 97.2,
+    "topRecruiters": [
+      "Salesforce",
+      "Amazon",
+      "Infosys",
+      "Accenture"
+    ]
+  },
+  {
+    "name": "Indian Institute of Information Technology Pune",
+    "city": "Pune",
+    "type": "Government",
+    "location": "Maharashtra",
+    "courses": [
+      "MCA",
+      "BCA",
+      "BBA"
+    ],
+    "eligibility": {
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test",
+      "BCA": "12th standard with 50% minimum marks",
+      "BBA": "12th standard with 50% minimum marks"
+    },
+    "contact": "+91-9000155556",
+    "website": "https://www.iiitp.ac.in",
+    "averagePackageLPA": 16.5,
+    "highestPackageLPA": 75,
+    "placementPercentage": 95,
+    "topRecruiters": [
+      "Google",
+      "Meta",
+      "Wipro",
+      "Capgemini",
+      "J.P. Morgan"
+    ]
+  },
+  {
+    "name": "Indian Institute of Information Technology Vadodara",
+    "city": "Gandhinagar",
+    "type": "Government",
+    "location": "Gujarat",
+    "courses": [
+      "BCA",
+      "BBA",
+      "B.Sc CS",
+      "B.Tech CSE"
+    ],
+    "eligibility": {
+      "BCA": "12th standard with 50% minimum marks",
+      "BBA": "12th standard with 50% minimum marks",
+      "B.Sc CS": "12th standard with 50% minimum marks",
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance"
+    },
+    "contact": "+91-9000159877",
+    "website": "https://www.iiitvadodara.ac.in",
+    "averagePackageLPA": 14.5,
+    "highestPackageLPA": 68,
+    "placementPercentage": 94,
+    "topRecruiters": [
+      "Microsoft",
+      "TCS",
+      "Cognizant",
+      "Deloitte",
+      "PwC",
+      "Adobe"
+    ]
+  },
+  {
+    "name": "Indian Institute of Information Technology Sri City",
+    "city": "Sri City",
+    "type": "Government",
+    "location": "Andhra Pradesh",
+    "courses": [
+      "BBA",
+      "B.Sc CS",
+      "B.Tech CSE",
+      "B.Tech ECE",
+      "B.Tech IT"
+    ],
+    "eligibility": {
+      "BBA": "12th standard with 50% minimum marks",
+      "B.Sc CS": "12th standard with 50% minimum marks",
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech ECE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance"
+    },
+    "contact": "+91-9000164198",
+    "website": "https://www.iiits.in",
+    "averagePackageLPA": 15.2,
+    "highestPackageLPA": 72,
+    "placementPercentage": 94.8,
+    "topRecruiters": [
+      "Amazon",
+      "Infosys",
+      "Accenture",
+      "Goldman Sachs",
+      "HCL",
+      "Salesforce"
+    ]
+  },
+  {
+    "name": "Indian Institute of Information Technology Guwahati",
+    "city": "Guwahati",
+    "type": "Government",
+    "location": "Assam",
+    "courses": [
+      "B.Sc CS",
+      "B.Tech CSE",
+      "B.Tech ECE",
+      "B.Tech IT",
+      "B.Tech EE",
+      "M.Tech"
+    ],
+    "eligibility": {
+      "B.Sc CS": "12th standard with 50% minimum marks",
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech ECE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech EE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified"
+    },
+    "contact": "+91-9000168519",
+    "website": "https://www.iiitg.ac.in",
+    "averagePackageLPA": 13.8,
+    "highestPackageLPA": 62,
+    "placementPercentage": 93,
+    "topRecruiters": [
+      "Meta",
+      "Wipro",
+      "Capgemini",
+      "J.P. Morgan",
+      "Tech Mahindra",
+      "Google"
+    ]
+  },
+  {
+    "name": "Jadavpur University",
+    "city": "Kolkata",
+    "type": "Government",
+    "location": "West Bengal",
+    "courses": [
+      "B.Tech CSE",
+      "B.Tech ECE",
+      "B.Tech IT"
+    ],
+    "eligibility": {
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech ECE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance"
+    },
+    "contact": "+91-9000172840",
+    "website": "https://www.jaduniv.edu.in",
+    "averagePackageLPA": 12,
+    "highestPackageLPA": 85,
+    "placementPercentage": 92.5,
+    "topRecruiters": [
+      "TCS",
+      "Cognizant",
+      "Deloitte",
+      "PwC"
+    ]
+  },
+  {
+    "name": "College of Engineering Guindy",
+    "city": "Chennai",
+    "type": "Government",
+    "location": "Tamil Nadu",
+    "courses": [
+      "B.Tech ECE",
+      "B.Tech IT",
+      "B.Tech EE",
+      "M.Tech"
+    ],
+    "eligibility": {
+      "B.Tech ECE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech EE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified"
+    },
+    "contact": "+91-9000177161",
+    "website": "https://ceg.annauniv.edu",
+    "averagePackageLPA": 11.5,
+    "highestPackageLPA": 60,
+    "placementPercentage": 93.8,
+    "topRecruiters": [
+      "Infosys",
+      "Accenture",
+      "Goldman Sachs",
+      "HCL",
+      "Salesforce"
+    ]
+  },
+  {
+    "name": "Veermata Jijabai Technological Institute",
+    "city": "Mumbai",
+    "type": "Government",
+    "location": "Maharashtra",
+    "courses": [
+      "B.Tech IT",
+      "B.Tech EE",
+      "M.Tech",
+      "MBA",
+      "MCA"
+    ],
+    "eligibility": {
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech EE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified",
+      "MBA": "Graduation with 50% + CAT / MAT / CMAT score",
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test"
+    },
+    "contact": "+91-9000181482",
+    "website": "https://www.vjti.ac.in",
+    "averagePackageLPA": 13.2,
+    "highestPackageLPA": 62,
+    "placementPercentage": 94.5,
+    "topRecruiters": [
+      "Wipro",
+      "Capgemini",
+      "J.P. Morgan",
+      "Tech Mahindra",
+      "Google",
+      "Meta"
+    ]
+  },
+  {
+    "name": "College of Engineering Pune",
+    "city": "Pune",
+    "type": "Government",
+    "location": "Maharashtra",
+    "courses": [
+      "B.Tech EE",
+      "M.Tech",
+      "MBA",
+      "MCA",
+      "BCA",
+      "BBA"
+    ],
+    "eligibility": {
+      "B.Tech EE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified",
+      "MBA": "Graduation with 50% + CAT / MAT / CMAT score",
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test",
+      "BCA": "12th standard with 50% minimum marks",
+      "BBA": "12th standard with 50% minimum marks"
+    },
+    "contact": "+91-9000185803",
+    "website": "https://www.coep.org.in",
+    "averagePackageLPA": 12.5,
+    "highestPackageLPA": 60,
+    "placementPercentage": 93,
+    "topRecruiters": [
+      "Cognizant",
+      "Deloitte",
+      "PwC",
+      "Adobe",
+      "Microsoft",
+      "TCS"
+    ]
+  },
+  {
+    "name": "Harcourt Butler Technical University",
+    "city": "Kanpur",
+    "type": "Government",
+    "location": "Uttar Pradesh",
+    "courses": [
+      "M.Tech",
+      "MBA",
+      "MCA"
+    ],
+    "eligibility": {
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified",
+      "MBA": "Graduation with 50% + CAT / MAT / CMAT score",
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test"
+    },
+    "contact": "+91-9000190124",
+    "website": "https://hbtu.ac.in",
+    "averagePackageLPA": 9.5,
+    "highestPackageLPA": 44.5,
+    "placementPercentage": 89,
+    "topRecruiters": [
+      "Accenture",
+      "Goldman Sachs",
+      "HCL",
+      "Salesforce",
+      "Amazon",
+      "Infosys"
+    ]
+  },
+  {
+    "name": "Madhav Institute of Technology and Science",
+    "city": "Gwalior",
+    "type": "Government",
+    "location": "Madhya Pradesh",
+    "courses": [
+      "MBA",
+      "MCA",
+      "BCA",
+      "BBA"
+    ],
+    "eligibility": {
+      "MBA": "Graduation with 50% + CAT / MAT / CMAT score",
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test",
+      "BCA": "12th standard with 50% minimum marks",
+      "BBA": "12th standard with 50% minimum marks"
+    },
+    "contact": "+91-9000194445",
+    "website": "https://www.mitsgwalior.in",
+    "averagePackageLPA": 6.2,
+    "highestPackageLPA": 28,
+    "placementPercentage": 82,
+    "topRecruiters": [
+      "Capgemini",
+      "J.P. Morgan",
+      "Tech Mahindra",
+      "Google"
+    ]
+  },
+  {
+    "name": "SGSITS Indore",
+    "city": "Indore",
+    "type": "Government",
+    "location": "Madhya Pradesh",
+    "courses": [
+      "MCA",
+      "BCA",
+      "BBA",
+      "B.Sc CS",
+      "B.Tech CSE"
+    ],
+    "eligibility": {
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test",
+      "BCA": "12th standard with 50% minimum marks",
+      "BBA": "12th standard with 50% minimum marks",
+      "B.Sc CS": "12th standard with 50% minimum marks",
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance"
+    },
+    "contact": "+91-9000198766",
+    "website": "https://www.sgsits.ac.in",
+    "averagePackageLPA": 8.5,
+    "highestPackageLPA": 40,
+    "placementPercentage": 88,
+    "topRecruiters": [
+      "Deloitte",
+      "PwC",
+      "Adobe",
+      "Microsoft",
+      "TCS"
+    ]
+  },
+  {
+    "name": "LD College of Engineering",
+    "city": "Ahmedabad",
+    "type": "Government",
+    "location": "Gujarat",
+    "courses": [
+      "BCA",
+      "BBA",
+      "B.Sc CS",
+      "B.Tech CSE",
+      "B.Tech ECE",
+      "B.Tech IT"
+    ],
+    "eligibility": {
+      "BCA": "12th standard with 50% minimum marks",
+      "BBA": "12th standard with 50% minimum marks",
+      "B.Sc CS": "12th standard with 50% minimum marks",
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech ECE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance"
+    },
+    "contact": "+91-9000203087",
+    "website": "https://ldce.ac.in",
+    "averagePackageLPA": 6.5,
+    "highestPackageLPA": 30,
+    "placementPercentage": 85,
+    "topRecruiters": [
+      "Goldman Sachs",
+      "HCL",
+      "Salesforce",
+      "Amazon",
+      "Infosys",
+      "Accenture"
+    ]
+  },
+  {
+    "name": "University Visvesvaraya College of Engineering",
+    "city": "Bengaluru",
+    "type": "Government",
+    "location": "Karnataka",
+    "courses": [
+      "BBA",
+      "B.Sc CS",
+      "B.Tech CSE"
+    ],
+    "eligibility": {
+      "BBA": "12th standard with 50% minimum marks",
+      "B.Sc CS": "12th standard with 50% minimum marks",
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance"
+    },
+    "contact": "+91-9000207408",
+    "website": "https://uvce.ac.in",
+    "averagePackageLPA": 8.8,
+    "highestPackageLPA": 42,
+    "placementPercentage": 89.5,
+    "topRecruiters": [
+      "J.P. Morgan",
+      "Tech Mahindra",
+      "Google",
+      "Meta",
+      "Wipro",
+      "Capgemini"
+    ]
+  },
+  {
+    "name": "Andhra University College of Engineering",
+    "city": "Visakhapatnam",
+    "type": "Government",
+    "location": "Andhra Pradesh",
+    "courses": [
+      "B.Sc CS",
+      "B.Tech CSE",
+      "B.Tech ECE",
+      "B.Tech IT"
+    ],
+    "eligibility": {
+      "B.Sc CS": "12th standard with 50% minimum marks",
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech ECE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance"
+    },
+    "contact": "+91-9000211729",
+    "website": "https://www.andhrauniversity.edu.in",
+    "averagePackageLPA": 6.8,
+    "highestPackageLPA": 32,
+    "placementPercentage": 84,
+    "topRecruiters": [
+      "PwC",
+      "Adobe",
+      "Microsoft",
+      "TCS",
+      "Cognizant",
+      "Deloitte"
+    ]
+  }
+]

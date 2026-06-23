@@ -1,0 +1,1576 @@
+[
+  {
+    "name": "Government Engineering College Chennai (GEC-150)",
+    "city": "Chennai",
+    "type": "Government",
+    "location": "Tamil Nadu",
+    "courses": [
+      "B.Tech CSE",
+      "B.Tech ECE",
+      "B.Tech IT",
+      "B.Tech EE",
+      "M.Tech"
+    ],
+    "eligibility": {
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech ECE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech EE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified"
+    },
+    "contact": "+91-9000648150",
+    "website": "https://www.chennai-ec-150.edu.in",
+    "averagePackageLPA": 5,
+    "highestPackageLPA": 15,
+    "placementPercentage": 86,
+    "topRecruiters": [
+      "Wipro",
+      "Capgemini",
+      "J.P. Morgan",
+      "Tech Mahindra"
+    ]
+  },
+  {
+    "name": "National Engineering College Kolkata (NEC-151)",
+    "city": "Kolkata",
+    "type": "Private",
+    "location": "West Bengal",
+    "courses": [
+      "B.Tech ECE",
+      "B.Tech IT",
+      "B.Tech EE",
+      "M.Tech",
+      "MBA",
+      "MCA"
+    ],
+    "eligibility": {
+      "B.Tech ECE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech EE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified",
+      "MBA": "Graduation with 50% + CAT / MAT / CMAT score",
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test"
+    },
+    "contact": "+91-9000652471",
+    "website": "https://www.kolkata-ec-151.edu.in",
+    "averagePackageLPA": 6.2,
+    "highestPackageLPA": 19.5,
+    "placementPercentage": 87.1,
+    "topRecruiters": [
+      "Cognizant",
+      "Deloitte",
+      "PwC",
+      "Adobe",
+      "Microsoft"
+    ]
+  },
+  {
+    "name": "National Engineering College Jaipur (NEC-152)",
+    "city": "Jaipur",
+    "type": "Private",
+    "location": "Rajasthan",
+    "courses": [
+      "B.Tech IT",
+      "B.Tech EE",
+      "M.Tech"
+    ],
+    "eligibility": {
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech EE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified"
+    },
+    "contact": "+91-9000656792",
+    "website": "https://www.jaipur-ec-152.edu.in",
+    "averagePackageLPA": 7.4,
+    "highestPackageLPA": 24,
+    "placementPercentage": 88.2,
+    "topRecruiters": [
+      "Accenture",
+      "Goldman Sachs",
+      "HCL",
+      "Salesforce",
+      "Amazon",
+      "Infosys"
+    ]
+  },
+  {
+    "name": "Government Engineering College Bhopal (GEC-153)",
+    "city": "Bhopal",
+    "type": "Government",
+    "location": "Madhya Pradesh",
+    "courses": [
+      "B.Tech EE",
+      "M.Tech",
+      "MBA",
+      "MCA"
+    ],
+    "eligibility": {
+      "B.Tech EE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified",
+      "MBA": "Graduation with 50% + CAT / MAT / CMAT score",
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test"
+    },
+    "contact": "+91-9000661113",
+    "website": "https://www.bhopal-ec-153.edu.in",
+    "averagePackageLPA": 8.6,
+    "highestPackageLPA": 28.5,
+    "placementPercentage": 89.3,
+    "topRecruiters": [
+      "Capgemini",
+      "J.P. Morgan",
+      "Tech Mahindra",
+      "Google",
+      "Meta",
+      "Wipro"
+    ]
+  },
+  {
+    "name": "National Engineering College Ahmedabad (NEC-154)",
+    "city": "Ahmedabad",
+    "type": "Private",
+    "location": "Gujarat",
+    "courses": [
+      "M.Tech",
+      "MBA",
+      "MCA",
+      "BCA",
+      "BBA"
+    ],
+    "eligibility": {
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified",
+      "MBA": "Graduation with 50% + CAT / MAT / CMAT score",
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test",
+      "BCA": "12th standard with 50% minimum marks",
+      "BBA": "12th standard with 50% minimum marks"
+    },
+    "contact": "+91-9000665434",
+    "website": "https://www.ahmedabad-ec-154.edu.in",
+    "averagePackageLPA": 9.8,
+    "highestPackageLPA": 33,
+    "placementPercentage": 90.4,
+    "topRecruiters": [
+      "Deloitte",
+      "PwC",
+      "Adobe",
+      "Microsoft",
+      "TCS",
+      "Cognizant"
+    ]
+  },
+  {
+    "name": "National Engineering College Coimbatore (NEC-155)",
+    "city": "Coimbatore",
+    "type": "Private",
+    "location": "Tamil Nadu",
+    "courses": [
+      "MBA",
+      "MCA",
+      "BCA",
+      "BBA",
+      "B.Sc CS",
+      "B.Tech CSE"
+    ],
+    "eligibility": {
+      "MBA": "Graduation with 50% + CAT / MAT / CMAT score",
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test",
+      "BCA": "12th standard with 50% minimum marks",
+      "BBA": "12th standard with 50% minimum marks",
+      "B.Sc CS": "12th standard with 50% minimum marks",
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance"
+    },
+    "contact": "+91-9000669755",
+    "website": "https://www.coimbatore-ec-155.edu.in",
+    "averagePackageLPA": 11,
+    "highestPackageLPA": 37.5,
+    "placementPercentage": 91.5,
+    "topRecruiters": [
+      "Goldman Sachs",
+      "HCL",
+      "Salesforce",
+      "Amazon"
+    ]
+  },
+  {
+    "name": "Government Engineering College Pune (GEC-156)",
+    "city": "Pune",
+    "type": "Government",
+    "location": "Maharashtra",
+    "courses": [
+      "MCA",
+      "BCA",
+      "BBA"
+    ],
+    "eligibility": {
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test",
+      "BCA": "12th standard with 50% minimum marks",
+      "BBA": "12th standard with 50% minimum marks"
+    },
+    "contact": "+91-9000674076",
+    "website": "https://www.pune-ec-156.edu.in",
+    "averagePackageLPA": 12.2,
+    "highestPackageLPA": 42,
+    "placementPercentage": 92.6,
+    "topRecruiters": [
+      "J.P. Morgan",
+      "Tech Mahindra",
+      "Google",
+      "Meta",
+      "Wipro"
+    ]
+  },
+  {
+    "name": "National Engineering College Bengaluru (NEC-157)",
+    "city": "Bengaluru",
+    "type": "Private",
+    "location": "Karnataka",
+    "courses": [
+      "BCA",
+      "BBA",
+      "B.Sc CS",
+      "B.Tech CSE"
+    ],
+    "eligibility": {
+      "BCA": "12th standard with 50% minimum marks",
+      "BBA": "12th standard with 50% minimum marks",
+      "B.Sc CS": "12th standard with 50% minimum marks",
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance"
+    },
+    "contact": "+91-9000678397",
+    "website": "https://www.bengaluru-ec-157.edu.in",
+    "averagePackageLPA": 13.4,
+    "highestPackageLPA": 46.5,
+    "placementPercentage": 93.7,
+    "topRecruiters": [
+      "PwC",
+      "Adobe",
+      "Microsoft",
+      "TCS",
+      "Cognizant",
+      "Deloitte"
+    ]
+  },
+  {
+    "name": "National Engineering College Noida (NEC-158)",
+    "city": "Noida",
+    "type": "Private",
+    "location": "Uttar Pradesh",
+    "courses": [
+      "BBA",
+      "B.Sc CS",
+      "B.Tech CSE",
+      "B.Tech ECE",
+      "B.Tech IT"
+    ],
+    "eligibility": {
+      "BBA": "12th standard with 50% minimum marks",
+      "B.Sc CS": "12th standard with 50% minimum marks",
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech ECE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance"
+    },
+    "contact": "+91-9000682718",
+    "website": "https://www.noida-ec-158.edu.in",
+    "averagePackageLPA": 14.6,
+    "highestPackageLPA": 51,
+    "placementPercentage": 94.8,
+    "topRecruiters": [
+      "HCL",
+      "Salesforce",
+      "Amazon",
+      "Infosys",
+      "Accenture",
+      "Goldman Sachs"
+    ]
+  },
+  {
+    "name": "Government Engineering College Greater Noida (GEC-159)",
+    "city": "Greater Noida",
+    "type": "Government",
+    "location": "Uttar Pradesh",
+    "courses": [
+      "B.Sc CS",
+      "B.Tech CSE",
+      "B.Tech ECE",
+      "B.Tech IT",
+      "B.Tech EE",
+      "M.Tech"
+    ],
+    "eligibility": {
+      "B.Sc CS": "12th standard with 50% minimum marks",
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech ECE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech EE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified"
+    },
+    "contact": "+91-9000687039",
+    "website": "https://www.greater noida-ec-159.edu.in",
+    "averagePackageLPA": 15.8,
+    "highestPackageLPA": 55.5,
+    "placementPercentage": 95.9,
+    "topRecruiters": [
+      "Tech Mahindra",
+      "Google",
+      "Meta",
+      "Wipro",
+      "Capgemini",
+      "J.P. Morgan"
+    ]
+  },
+  {
+    "name": "National Engineering College Gurugram (NEC-160)",
+    "city": "Gurugram",
+    "type": "Private",
+    "location": "Haryana",
+    "courses": [
+      "B.Tech CSE",
+      "B.Tech ECE",
+      "B.Tech IT"
+    ],
+    "eligibility": {
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech ECE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance"
+    },
+    "contact": "+91-9000691360",
+    "website": "https://www.gurugram-ec-160.edu.in",
+    "averagePackageLPA": 5,
+    "highestPackageLPA": 60,
+    "placementPercentage": 75,
+    "topRecruiters": [
+      "Adobe",
+      "Microsoft",
+      "TCS",
+      "Cognizant"
+    ]
+  },
+  {
+    "name": "National Engineering College Hyderabad (NEC-161)",
+    "city": "Hyderabad",
+    "type": "Private",
+    "location": "Telangana",
+    "courses": [
+      "B.Tech ECE",
+      "B.Tech IT",
+      "B.Tech EE",
+      "M.Tech"
+    ],
+    "eligibility": {
+      "B.Tech ECE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech EE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified"
+    },
+    "contact": "+91-9000695681",
+    "website": "https://www.hyderabad-ec-161.edu.in",
+    "averagePackageLPA": 6.2,
+    "highestPackageLPA": 64.5,
+    "placementPercentage": 76.1,
+    "topRecruiters": [
+      "Salesforce",
+      "Amazon",
+      "Infosys",
+      "Accenture",
+      "Goldman Sachs"
+    ]
+  },
+  {
+    "name": "Government Engineering College Chennai (GEC-162)",
+    "city": "Chennai",
+    "type": "Government",
+    "location": "Tamil Nadu",
+    "courses": [
+      "B.Tech IT",
+      "B.Tech EE",
+      "M.Tech",
+      "MBA",
+      "MCA"
+    ],
+    "eligibility": {
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech EE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified",
+      "MBA": "Graduation with 50% + CAT / MAT / CMAT score",
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test"
+    },
+    "contact": "+91-9000700002",
+    "website": "https://www.chennai-ec-162.edu.in",
+    "averagePackageLPA": 7.4,
+    "highestPackageLPA": 69,
+    "placementPercentage": 77.2,
+    "topRecruiters": [
+      "Google",
+      "Meta",
+      "Wipro",
+      "Capgemini",
+      "J.P. Morgan",
+      "Tech Mahindra"
+    ]
+  },
+  {
+    "name": "National Engineering College Kolkata (NEC-163)",
+    "city": "Kolkata",
+    "type": "Private",
+    "location": "West Bengal",
+    "courses": [
+      "B.Tech EE",
+      "M.Tech",
+      "MBA",
+      "MCA",
+      "BCA",
+      "BBA"
+    ],
+    "eligibility": {
+      "B.Tech EE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified",
+      "MBA": "Graduation with 50% + CAT / MAT / CMAT score",
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test",
+      "BCA": "12th standard with 50% minimum marks",
+      "BBA": "12th standard with 50% minimum marks"
+    },
+    "contact": "+91-9000704323",
+    "website": "https://www.kolkata-ec-163.edu.in",
+    "averagePackageLPA": 8.6,
+    "highestPackageLPA": 73.5,
+    "placementPercentage": 78.3,
+    "topRecruiters": [
+      "Microsoft",
+      "TCS",
+      "Cognizant",
+      "Deloitte",
+      "PwC",
+      "Adobe"
+    ]
+  },
+  {
+    "name": "National Engineering College Jaipur (NEC-164)",
+    "city": "Jaipur",
+    "type": "Private",
+    "location": "Rajasthan",
+    "courses": [
+      "M.Tech",
+      "MBA",
+      "MCA"
+    ],
+    "eligibility": {
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified",
+      "MBA": "Graduation with 50% + CAT / MAT / CMAT score",
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test"
+    },
+    "contact": "+91-9000708644",
+    "website": "https://www.jaipur-ec-164.edu.in",
+    "averagePackageLPA": 9.8,
+    "highestPackageLPA": 78,
+    "placementPercentage": 79.4,
+    "topRecruiters": [
+      "Amazon",
+      "Infosys",
+      "Accenture",
+      "Goldman Sachs",
+      "HCL",
+      "Salesforce"
+    ]
+  },
+  {
+    "name": "Government Engineering College Bhopal (GEC-165)",
+    "city": "Bhopal",
+    "type": "Government",
+    "location": "Madhya Pradesh",
+    "courses": [
+      "MBA",
+      "MCA",
+      "BCA",
+      "BBA"
+    ],
+    "eligibility": {
+      "MBA": "Graduation with 50% + CAT / MAT / CMAT score",
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test",
+      "BCA": "12th standard with 50% minimum marks",
+      "BBA": "12th standard with 50% minimum marks"
+    },
+    "contact": "+91-9000712965",
+    "website": "https://www.bhopal-ec-165.edu.in",
+    "averagePackageLPA": 11,
+    "highestPackageLPA": 15,
+    "placementPercentage": 80.5,
+    "topRecruiters": [
+      "Meta",
+      "Wipro",
+      "Capgemini",
+      "J.P. Morgan"
+    ]
+  },
+  {
+    "name": "National Engineering College Ahmedabad (NEC-166)",
+    "city": "Ahmedabad",
+    "type": "Private",
+    "location": "Gujarat",
+    "courses": [
+      "MCA",
+      "BCA",
+      "BBA",
+      "B.Sc CS",
+      "B.Tech CSE"
+    ],
+    "eligibility": {
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test",
+      "BCA": "12th standard with 50% minimum marks",
+      "BBA": "12th standard with 50% minimum marks",
+      "B.Sc CS": "12th standard with 50% minimum marks",
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance"
+    },
+    "contact": "+91-9000717286",
+    "website": "https://www.ahmedabad-ec-166.edu.in",
+    "averagePackageLPA": 12.2,
+    "highestPackageLPA": 19.5,
+    "placementPercentage": 81.6,
+    "topRecruiters": [
+      "TCS",
+      "Cognizant",
+      "Deloitte",
+      "PwC",
+      "Adobe"
+    ]
+  },
+  {
+    "name": "National Engineering College Coimbatore (NEC-167)",
+    "city": "Coimbatore",
+    "type": "Private",
+    "location": "Tamil Nadu",
+    "courses": [
+      "BCA",
+      "BBA",
+      "B.Sc CS",
+      "B.Tech CSE",
+      "B.Tech ECE",
+      "B.Tech IT"
+    ],
+    "eligibility": {
+      "BCA": "12th standard with 50% minimum marks",
+      "BBA": "12th standard with 50% minimum marks",
+      "B.Sc CS": "12th standard with 50% minimum marks",
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech ECE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance"
+    },
+    "contact": "+91-9000721607",
+    "website": "https://www.coimbatore-ec-167.edu.in",
+    "averagePackageLPA": 13.4,
+    "highestPackageLPA": 24,
+    "placementPercentage": 82.7,
+    "topRecruiters": [
+      "Infosys",
+      "Accenture",
+      "Goldman Sachs",
+      "HCL",
+      "Salesforce",
+      "Amazon"
+    ]
+  },
+  {
+    "name": "Government Engineering College Pune (GEC-168)",
+    "city": "Pune",
+    "type": "Government",
+    "location": "Maharashtra",
+    "courses": [
+      "BBA",
+      "B.Sc CS",
+      "B.Tech CSE"
+    ],
+    "eligibility": {
+      "BBA": "12th standard with 50% minimum marks",
+      "B.Sc CS": "12th standard with 50% minimum marks",
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance"
+    },
+    "contact": "+91-9000725928",
+    "website": "https://www.pune-ec-168.edu.in",
+    "averagePackageLPA": 14.6,
+    "highestPackageLPA": 28.5,
+    "placementPercentage": 83.8,
+    "topRecruiters": [
+      "Wipro",
+      "Capgemini",
+      "J.P. Morgan",
+      "Tech Mahindra",
+      "Google",
+      "Meta"
+    ]
+  },
+  {
+    "name": "National Engineering College Bengaluru (NEC-169)",
+    "city": "Bengaluru",
+    "type": "Private",
+    "location": "Karnataka",
+    "courses": [
+      "B.Sc CS",
+      "B.Tech CSE",
+      "B.Tech ECE",
+      "B.Tech IT"
+    ],
+    "eligibility": {
+      "B.Sc CS": "12th standard with 50% minimum marks",
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech ECE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance"
+    },
+    "contact": "+91-9000730249",
+    "website": "https://www.bengaluru-ec-169.edu.in",
+    "averagePackageLPA": 15.8,
+    "highestPackageLPA": 33,
+    "placementPercentage": 84.9,
+    "topRecruiters": [
+      "Cognizant",
+      "Deloitte",
+      "PwC",
+      "Adobe",
+      "Microsoft",
+      "TCS"
+    ]
+  },
+  {
+    "name": "National Engineering College Noida (NEC-170)",
+    "city": "Noida",
+    "type": "Private",
+    "location": "Uttar Pradesh",
+    "courses": [
+      "B.Tech CSE",
+      "B.Tech ECE",
+      "B.Tech IT",
+      "B.Tech EE",
+      "M.Tech"
+    ],
+    "eligibility": {
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech ECE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech EE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified"
+    },
+    "contact": "+91-9000734570",
+    "website": "https://www.noida-ec-170.edu.in",
+    "averagePackageLPA": 5,
+    "highestPackageLPA": 37.5,
+    "placementPercentage": 86,
+    "topRecruiters": [
+      "Accenture",
+      "Goldman Sachs",
+      "HCL",
+      "Salesforce"
+    ]
+  },
+  {
+    "name": "Government Engineering College Greater Noida (GEC-171)",
+    "city": "Greater Noida",
+    "type": "Government",
+    "location": "Uttar Pradesh",
+    "courses": [
+      "B.Tech ECE",
+      "B.Tech IT",
+      "B.Tech EE",
+      "M.Tech",
+      "MBA",
+      "MCA"
+    ],
+    "eligibility": {
+      "B.Tech ECE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech EE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified",
+      "MBA": "Graduation with 50% + CAT / MAT / CMAT score",
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test"
+    },
+    "contact": "+91-9000738891",
+    "website": "https://www.greater noida-ec-171.edu.in",
+    "averagePackageLPA": 6.2,
+    "highestPackageLPA": 42,
+    "placementPercentage": 87.1,
+    "topRecruiters": [
+      "Capgemini",
+      "J.P. Morgan",
+      "Tech Mahindra",
+      "Google",
+      "Meta"
+    ]
+  },
+  {
+    "name": "National Engineering College Gurugram (NEC-172)",
+    "city": "Gurugram",
+    "type": "Private",
+    "location": "Haryana",
+    "courses": [
+      "B.Tech IT",
+      "B.Tech EE",
+      "M.Tech"
+    ],
+    "eligibility": {
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech EE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified"
+    },
+    "contact": "+91-9000743212",
+    "website": "https://www.gurugram-ec-172.edu.in",
+    "averagePackageLPA": 7.4,
+    "highestPackageLPA": 46.5,
+    "placementPercentage": 88.2,
+    "topRecruiters": [
+      "Deloitte",
+      "PwC",
+      "Adobe",
+      "Microsoft",
+      "TCS",
+      "Cognizant"
+    ]
+  },
+  {
+    "name": "National Engineering College Hyderabad (NEC-173)",
+    "city": "Hyderabad",
+    "type": "Private",
+    "location": "Telangana",
+    "courses": [
+      "B.Tech EE",
+      "M.Tech",
+      "MBA",
+      "MCA"
+    ],
+    "eligibility": {
+      "B.Tech EE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified",
+      "MBA": "Graduation with 50% + CAT / MAT / CMAT score",
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test"
+    },
+    "contact": "+91-9000747533",
+    "website": "https://www.hyderabad-ec-173.edu.in",
+    "averagePackageLPA": 8.6,
+    "highestPackageLPA": 51,
+    "placementPercentage": 89.3,
+    "topRecruiters": [
+      "Goldman Sachs",
+      "HCL",
+      "Salesforce",
+      "Amazon",
+      "Infosys",
+      "Accenture"
+    ]
+  },
+  {
+    "name": "Government Engineering College Chennai (GEC-174)",
+    "city": "Chennai",
+    "type": "Government",
+    "location": "Tamil Nadu",
+    "courses": [
+      "M.Tech",
+      "MBA",
+      "MCA",
+      "BCA",
+      "BBA"
+    ],
+    "eligibility": {
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified",
+      "MBA": "Graduation with 50% + CAT / MAT / CMAT score",
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test",
+      "BCA": "12th standard with 50% minimum marks",
+      "BBA": "12th standard with 50% minimum marks"
+    },
+    "contact": "+91-9000751854",
+    "website": "https://www.chennai-ec-174.edu.in",
+    "averagePackageLPA": 9.8,
+    "highestPackageLPA": 55.5,
+    "placementPercentage": 90.4,
+    "topRecruiters": [
+      "J.P. Morgan",
+      "Tech Mahindra",
+      "Google",
+      "Meta",
+      "Wipro",
+      "Capgemini"
+    ]
+  },
+  {
+    "name": "National Engineering College Kolkata (NEC-175)",
+    "city": "Kolkata",
+    "type": "Private",
+    "location": "West Bengal",
+    "courses": [
+      "MBA",
+      "MCA",
+      "BCA",
+      "BBA",
+      "B.Sc CS",
+      "B.Tech CSE"
+    ],
+    "eligibility": {
+      "MBA": "Graduation with 50% + CAT / MAT / CMAT score",
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test",
+      "BCA": "12th standard with 50% minimum marks",
+      "BBA": "12th standard with 50% minimum marks",
+      "B.Sc CS": "12th standard with 50% minimum marks",
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance"
+    },
+    "contact": "+91-9000756175",
+    "website": "https://www.kolkata-ec-175.edu.in",
+    "averagePackageLPA": 11,
+    "highestPackageLPA": 60,
+    "placementPercentage": 91.5,
+    "topRecruiters": [
+      "PwC",
+      "Adobe",
+      "Microsoft",
+      "TCS"
+    ]
+  },
+  {
+    "name": "National Engineering College Jaipur (NEC-176)",
+    "city": "Jaipur",
+    "type": "Private",
+    "location": "Rajasthan",
+    "courses": [
+      "MCA",
+      "BCA",
+      "BBA"
+    ],
+    "eligibility": {
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test",
+      "BCA": "12th standard with 50% minimum marks",
+      "BBA": "12th standard with 50% minimum marks"
+    },
+    "contact": "+91-9000760496",
+    "website": "https://www.jaipur-ec-176.edu.in",
+    "averagePackageLPA": 12.2,
+    "highestPackageLPA": 64.5,
+    "placementPercentage": 92.6,
+    "topRecruiters": [
+      "HCL",
+      "Salesforce",
+      "Amazon",
+      "Infosys",
+      "Accenture"
+    ]
+  },
+  {
+    "name": "Government Engineering College Bhopal (GEC-177)",
+    "city": "Bhopal",
+    "type": "Government",
+    "location": "Madhya Pradesh",
+    "courses": [
+      "BCA",
+      "BBA",
+      "B.Sc CS",
+      "B.Tech CSE"
+    ],
+    "eligibility": {
+      "BCA": "12th standard with 50% minimum marks",
+      "BBA": "12th standard with 50% minimum marks",
+      "B.Sc CS": "12th standard with 50% minimum marks",
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance"
+    },
+    "contact": "+91-9000764817",
+    "website": "https://www.bhopal-ec-177.edu.in",
+    "averagePackageLPA": 13.4,
+    "highestPackageLPA": 69,
+    "placementPercentage": 93.7,
+    "topRecruiters": [
+      "Tech Mahindra",
+      "Google",
+      "Meta",
+      "Wipro",
+      "Capgemini",
+      "J.P. Morgan"
+    ]
+  },
+  {
+    "name": "National Engineering College Ahmedabad (NEC-178)",
+    "city": "Ahmedabad",
+    "type": "Private",
+    "location": "Gujarat",
+    "courses": [
+      "BBA",
+      "B.Sc CS",
+      "B.Tech CSE",
+      "B.Tech ECE",
+      "B.Tech IT"
+    ],
+    "eligibility": {
+      "BBA": "12th standard with 50% minimum marks",
+      "B.Sc CS": "12th standard with 50% minimum marks",
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech ECE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance"
+    },
+    "contact": "+91-9000769138",
+    "website": "https://www.ahmedabad-ec-178.edu.in",
+    "averagePackageLPA": 14.6,
+    "highestPackageLPA": 73.5,
+    "placementPercentage": 94.8,
+    "topRecruiters": [
+      "Adobe",
+      "Microsoft",
+      "TCS",
+      "Cognizant",
+      "Deloitte",
+      "PwC"
+    ]
+  },
+  {
+    "name": "National Engineering College Coimbatore (NEC-179)",
+    "city": "Coimbatore",
+    "type": "Private",
+    "location": "Tamil Nadu",
+    "courses": [
+      "B.Sc CS",
+      "B.Tech CSE",
+      "B.Tech ECE",
+      "B.Tech IT",
+      "B.Tech EE",
+      "M.Tech"
+    ],
+    "eligibility": {
+      "B.Sc CS": "12th standard with 50% minimum marks",
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech ECE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech EE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified"
+    },
+    "contact": "+91-9000773459",
+    "website": "https://www.coimbatore-ec-179.edu.in",
+    "averagePackageLPA": 15.8,
+    "highestPackageLPA": 78,
+    "placementPercentage": 95.9,
+    "topRecruiters": [
+      "Salesforce",
+      "Amazon",
+      "Infosys",
+      "Accenture",
+      "Goldman Sachs",
+      "HCL"
+    ]
+  },
+  {
+    "name": "Government Engineering College Pune (GEC-180)",
+    "city": "Pune",
+    "type": "Government",
+    "location": "Maharashtra",
+    "courses": [
+      "B.Tech CSE",
+      "B.Tech ECE",
+      "B.Tech IT"
+    ],
+    "eligibility": {
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech ECE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance"
+    },
+    "contact": "+91-9000777780",
+    "website": "https://www.pune-ec-180.edu.in",
+    "averagePackageLPA": 5,
+    "highestPackageLPA": 15,
+    "placementPercentage": 75,
+    "topRecruiters": [
+      "Google",
+      "Meta",
+      "Wipro",
+      "Capgemini"
+    ]
+  },
+  {
+    "name": "National Engineering College Bengaluru (NEC-181)",
+    "city": "Bengaluru",
+    "type": "Private",
+    "location": "Karnataka",
+    "courses": [
+      "B.Tech ECE",
+      "B.Tech IT",
+      "B.Tech EE",
+      "M.Tech"
+    ],
+    "eligibility": {
+      "B.Tech ECE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech EE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified"
+    },
+    "contact": "+91-9000782101",
+    "website": "https://www.bengaluru-ec-181.edu.in",
+    "averagePackageLPA": 6.2,
+    "highestPackageLPA": 19.5,
+    "placementPercentage": 76.1,
+    "topRecruiters": [
+      "Microsoft",
+      "TCS",
+      "Cognizant",
+      "Deloitte",
+      "PwC"
+    ]
+  },
+  {
+    "name": "National Engineering College Noida (NEC-182)",
+    "city": "Noida",
+    "type": "Private",
+    "location": "Uttar Pradesh",
+    "courses": [
+      "B.Tech IT",
+      "B.Tech EE",
+      "M.Tech",
+      "MBA",
+      "MCA"
+    ],
+    "eligibility": {
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech EE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified",
+      "MBA": "Graduation with 50% + CAT / MAT / CMAT score",
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test"
+    },
+    "contact": "+91-9000786422",
+    "website": "https://www.noida-ec-182.edu.in",
+    "averagePackageLPA": 7.4,
+    "highestPackageLPA": 24,
+    "placementPercentage": 77.2,
+    "topRecruiters": [
+      "Amazon",
+      "Infosys",
+      "Accenture",
+      "Goldman Sachs",
+      "HCL",
+      "Salesforce"
+    ]
+  },
+  {
+    "name": "Government Engineering College Greater Noida (GEC-183)",
+    "city": "Greater Noida",
+    "type": "Government",
+    "location": "Uttar Pradesh",
+    "courses": [
+      "B.Tech EE",
+      "M.Tech",
+      "MBA",
+      "MCA",
+      "BCA",
+      "BBA"
+    ],
+    "eligibility": {
+      "B.Tech EE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified",
+      "MBA": "Graduation with 50% + CAT / MAT / CMAT score",
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test",
+      "BCA": "12th standard with 50% minimum marks",
+      "BBA": "12th standard with 50% minimum marks"
+    },
+    "contact": "+91-9000790743",
+    "website": "https://www.greater noida-ec-183.edu.in",
+    "averagePackageLPA": 8.6,
+    "highestPackageLPA": 28.5,
+    "placementPercentage": 78.3,
+    "topRecruiters": [
+      "Meta",
+      "Wipro",
+      "Capgemini",
+      "J.P. Morgan",
+      "Tech Mahindra",
+      "Google"
+    ]
+  },
+  {
+    "name": "National Engineering College Gurugram (NEC-184)",
+    "city": "Gurugram",
+    "type": "Private",
+    "location": "Haryana",
+    "courses": [
+      "M.Tech",
+      "MBA",
+      "MCA"
+    ],
+    "eligibility": {
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified",
+      "MBA": "Graduation with 50% + CAT / MAT / CMAT score",
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test"
+    },
+    "contact": "+91-9000795064",
+    "website": "https://www.gurugram-ec-184.edu.in",
+    "averagePackageLPA": 9.8,
+    "highestPackageLPA": 33,
+    "placementPercentage": 79.4,
+    "topRecruiters": [
+      "TCS",
+      "Cognizant",
+      "Deloitte",
+      "PwC",
+      "Adobe",
+      "Microsoft"
+    ]
+  },
+  {
+    "name": "National Engineering College Hyderabad (NEC-185)",
+    "city": "Hyderabad",
+    "type": "Private",
+    "location": "Telangana",
+    "courses": [
+      "MBA",
+      "MCA",
+      "BCA",
+      "BBA"
+    ],
+    "eligibility": {
+      "MBA": "Graduation with 50% + CAT / MAT / CMAT score",
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test",
+      "BCA": "12th standard with 50% minimum marks",
+      "BBA": "12th standard with 50% minimum marks"
+    },
+    "contact": "+91-9000799385",
+    "website": "https://www.hyderabad-ec-185.edu.in",
+    "averagePackageLPA": 11,
+    "highestPackageLPA": 37.5,
+    "placementPercentage": 80.5,
+    "topRecruiters": [
+      "Infosys",
+      "Accenture",
+      "Goldman Sachs",
+      "HCL"
+    ]
+  },
+  {
+    "name": "Government Engineering College Chennai (GEC-186)",
+    "city": "Chennai",
+    "type": "Government",
+    "location": "Tamil Nadu",
+    "courses": [
+      "MCA",
+      "BCA",
+      "BBA",
+      "B.Sc CS",
+      "B.Tech CSE"
+    ],
+    "eligibility": {
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test",
+      "BCA": "12th standard with 50% minimum marks",
+      "BBA": "12th standard with 50% minimum marks",
+      "B.Sc CS": "12th standard with 50% minimum marks",
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance"
+    },
+    "contact": "+91-9000803706",
+    "website": "https://www.chennai-ec-186.edu.in",
+    "averagePackageLPA": 12.2,
+    "highestPackageLPA": 42,
+    "placementPercentage": 81.6,
+    "topRecruiters": [
+      "Wipro",
+      "Capgemini",
+      "J.P. Morgan",
+      "Tech Mahindra",
+      "Google"
+    ]
+  },
+  {
+    "name": "National Engineering College Kolkata (NEC-187)",
+    "city": "Kolkata",
+    "type": "Private",
+    "location": "West Bengal",
+    "courses": [
+      "BCA",
+      "BBA",
+      "B.Sc CS",
+      "B.Tech CSE",
+      "B.Tech ECE",
+      "B.Tech IT"
+    ],
+    "eligibility": {
+      "BCA": "12th standard with 50% minimum marks",
+      "BBA": "12th standard with 50% minimum marks",
+      "B.Sc CS": "12th standard with 50% minimum marks",
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech ECE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance"
+    },
+    "contact": "+91-9000808027",
+    "website": "https://www.kolkata-ec-187.edu.in",
+    "averagePackageLPA": 13.4,
+    "highestPackageLPA": 46.5,
+    "placementPercentage": 82.7,
+    "topRecruiters": [
+      "Cognizant",
+      "Deloitte",
+      "PwC",
+      "Adobe",
+      "Microsoft",
+      "TCS"
+    ]
+  },
+  {
+    "name": "National Engineering College Jaipur (NEC-188)",
+    "city": "Jaipur",
+    "type": "Private",
+    "location": "Rajasthan",
+    "courses": [
+      "BBA",
+      "B.Sc CS",
+      "B.Tech CSE"
+    ],
+    "eligibility": {
+      "BBA": "12th standard with 50% minimum marks",
+      "B.Sc CS": "12th standard with 50% minimum marks",
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance"
+    },
+    "contact": "+91-9000812348",
+    "website": "https://www.jaipur-ec-188.edu.in",
+    "averagePackageLPA": 14.6,
+    "highestPackageLPA": 51,
+    "placementPercentage": 83.8,
+    "topRecruiters": [
+      "Accenture",
+      "Goldman Sachs",
+      "HCL",
+      "Salesforce",
+      "Amazon",
+      "Infosys"
+    ]
+  },
+  {
+    "name": "Government Engineering College Bhopal (GEC-189)",
+    "city": "Bhopal",
+    "type": "Government",
+    "location": "Madhya Pradesh",
+    "courses": [
+      "B.Sc CS",
+      "B.Tech CSE",
+      "B.Tech ECE",
+      "B.Tech IT"
+    ],
+    "eligibility": {
+      "B.Sc CS": "12th standard with 50% minimum marks",
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech ECE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance"
+    },
+    "contact": "+91-9000816669",
+    "website": "https://www.bhopal-ec-189.edu.in",
+    "averagePackageLPA": 15.8,
+    "highestPackageLPA": 55.5,
+    "placementPercentage": 84.9,
+    "topRecruiters": [
+      "Capgemini",
+      "J.P. Morgan",
+      "Tech Mahindra",
+      "Google",
+      "Meta",
+      "Wipro"
+    ]
+  },
+  {
+    "name": "National Engineering College Ahmedabad (NEC-190)",
+    "city": "Ahmedabad",
+    "type": "Private",
+    "location": "Gujarat",
+    "courses": [
+      "B.Tech CSE",
+      "B.Tech ECE",
+      "B.Tech IT",
+      "B.Tech EE",
+      "M.Tech"
+    ],
+    "eligibility": {
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech ECE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech EE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified"
+    },
+    "contact": "+91-9000820990",
+    "website": "https://www.ahmedabad-ec-190.edu.in",
+    "averagePackageLPA": 5,
+    "highestPackageLPA": 60,
+    "placementPercentage": 86,
+    "topRecruiters": [
+      "Deloitte",
+      "PwC",
+      "Adobe",
+      "Microsoft"
+    ]
+  },
+  {
+    "name": "National Engineering College Coimbatore (NEC-191)",
+    "city": "Coimbatore",
+    "type": "Private",
+    "location": "Tamil Nadu",
+    "courses": [
+      "B.Tech ECE",
+      "B.Tech IT",
+      "B.Tech EE",
+      "M.Tech",
+      "MBA",
+      "MCA"
+    ],
+    "eligibility": {
+      "B.Tech ECE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech EE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified",
+      "MBA": "Graduation with 50% + CAT / MAT / CMAT score",
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test"
+    },
+    "contact": "+91-9000825311",
+    "website": "https://www.coimbatore-ec-191.edu.in",
+    "averagePackageLPA": 6.2,
+    "highestPackageLPA": 64.5,
+    "placementPercentage": 87.1,
+    "topRecruiters": [
+      "Goldman Sachs",
+      "HCL",
+      "Salesforce",
+      "Amazon",
+      "Infosys"
+    ]
+  },
+  {
+    "name": "Government Engineering College Pune (GEC-192)",
+    "city": "Pune",
+    "type": "Government",
+    "location": "Maharashtra",
+    "courses": [
+      "B.Tech IT",
+      "B.Tech EE",
+      "M.Tech"
+    ],
+    "eligibility": {
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech EE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified"
+    },
+    "contact": "+91-9000829632",
+    "website": "https://www.pune-ec-192.edu.in",
+    "averagePackageLPA": 7.4,
+    "highestPackageLPA": 69,
+    "placementPercentage": 88.2,
+    "topRecruiters": [
+      "J.P. Morgan",
+      "Tech Mahindra",
+      "Google",
+      "Meta",
+      "Wipro",
+      "Capgemini"
+    ]
+  },
+  {
+    "name": "National Engineering College Bengaluru (NEC-193)",
+    "city": "Bengaluru",
+    "type": "Private",
+    "location": "Karnataka",
+    "courses": [
+      "B.Tech EE",
+      "M.Tech",
+      "MBA",
+      "MCA"
+    ],
+    "eligibility": {
+      "B.Tech EE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified",
+      "MBA": "Graduation with 50% + CAT / MAT / CMAT score",
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test"
+    },
+    "contact": "+91-9000833953",
+    "website": "https://www.bengaluru-ec-193.edu.in",
+    "averagePackageLPA": 8.6,
+    "highestPackageLPA": 73.5,
+    "placementPercentage": 89.3,
+    "topRecruiters": [
+      "PwC",
+      "Adobe",
+      "Microsoft",
+      "TCS",
+      "Cognizant",
+      "Deloitte"
+    ]
+  },
+  {
+    "name": "National Engineering College Noida (NEC-194)",
+    "city": "Noida",
+    "type": "Private",
+    "location": "Uttar Pradesh",
+    "courses": [
+      "M.Tech",
+      "MBA",
+      "MCA",
+      "BCA",
+      "BBA"
+    ],
+    "eligibility": {
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified",
+      "MBA": "Graduation with 50% + CAT / MAT / CMAT score",
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test",
+      "BCA": "12th standard with 50% minimum marks",
+      "BBA": "12th standard with 50% minimum marks"
+    },
+    "contact": "+91-9000838274",
+    "website": "https://www.noida-ec-194.edu.in",
+    "averagePackageLPA": 9.8,
+    "highestPackageLPA": 78,
+    "placementPercentage": 90.4,
+    "topRecruiters": [
+      "HCL",
+      "Salesforce",
+      "Amazon",
+      "Infosys",
+      "Accenture",
+      "Goldman Sachs"
+    ]
+  },
+  {
+    "name": "Government Engineering College Greater Noida (GEC-195)",
+    "city": "Greater Noida",
+    "type": "Government",
+    "location": "Uttar Pradesh",
+    "courses": [
+      "MBA",
+      "MCA",
+      "BCA",
+      "BBA",
+      "B.Sc CS",
+      "B.Tech CSE"
+    ],
+    "eligibility": {
+      "MBA": "Graduation with 50% + CAT / MAT / CMAT score",
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test",
+      "BCA": "12th standard with 50% minimum marks",
+      "BBA": "12th standard with 50% minimum marks",
+      "B.Sc CS": "12th standard with 50% minimum marks",
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance"
+    },
+    "contact": "+91-9000842595",
+    "website": "https://www.greater noida-ec-195.edu.in",
+    "averagePackageLPA": 11,
+    "highestPackageLPA": 15,
+    "placementPercentage": 91.5,
+    "topRecruiters": [
+      "Tech Mahindra",
+      "Google",
+      "Meta",
+      "Wipro"
+    ]
+  },
+  {
+    "name": "National Engineering College Gurugram (NEC-196)",
+    "city": "Gurugram",
+    "type": "Private",
+    "location": "Haryana",
+    "courses": [
+      "MCA",
+      "BCA",
+      "BBA"
+    ],
+    "eligibility": {
+      "MCA": "BCA or B.Sc with Mathematics in 12th + NIMCET / State Test",
+      "BCA": "12th standard with 50% minimum marks",
+      "BBA": "12th standard with 50% minimum marks"
+    },
+    "contact": "+91-9000846916",
+    "website": "https://www.gurugram-ec-196.edu.in",
+    "averagePackageLPA": 12.2,
+    "highestPackageLPA": 19.5,
+    "placementPercentage": 92.6,
+    "topRecruiters": [
+      "Adobe",
+      "Microsoft",
+      "TCS",
+      "Cognizant",
+      "Deloitte"
+    ]
+  },
+  {
+    "name": "National Engineering College Hyderabad (NEC-197)",
+    "city": "Hyderabad",
+    "type": "Private",
+    "location": "Telangana",
+    "courses": [
+      "BCA",
+      "BBA",
+      "B.Sc CS",
+      "B.Tech CSE"
+    ],
+    "eligibility": {
+      "BCA": "12th standard with 50% minimum marks",
+      "BBA": "12th standard with 50% minimum marks",
+      "B.Sc CS": "12th standard with 50% minimum marks",
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance"
+    },
+    "contact": "+91-9000851237",
+    "website": "https://www.hyderabad-ec-197.edu.in",
+    "averagePackageLPA": 13.4,
+    "highestPackageLPA": 24,
+    "placementPercentage": 93.7,
+    "topRecruiters": [
+      "Salesforce",
+      "Amazon",
+      "Infosys",
+      "Accenture",
+      "Goldman Sachs",
+      "HCL"
+    ]
+  },
+  {
+    "name": "Government Engineering College Chennai (GEC-198)",
+    "city": "Chennai",
+    "type": "Government",
+    "location": "Tamil Nadu",
+    "courses": [
+      "BBA",
+      "B.Sc CS",
+      "B.Tech CSE",
+      "B.Tech ECE",
+      "B.Tech IT"
+    ],
+    "eligibility": {
+      "BBA": "12th standard with 50% minimum marks",
+      "B.Sc CS": "12th standard with 50% minimum marks",
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech ECE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance"
+    },
+    "contact": "+91-9000855558",
+    "website": "https://www.chennai-ec-198.edu.in",
+    "averagePackageLPA": 14.6,
+    "highestPackageLPA": 28.5,
+    "placementPercentage": 94.8,
+    "topRecruiters": [
+      "Google",
+      "Meta",
+      "Wipro",
+      "Capgemini",
+      "J.P. Morgan",
+      "Tech Mahindra"
+    ]
+  },
+  {
+    "name": "National Engineering College Kolkata (NEC-199)",
+    "city": "Kolkata",
+    "type": "Private",
+    "location": "West Bengal",
+    "courses": [
+      "B.Sc CS",
+      "B.Tech CSE",
+      "B.Tech ECE",
+      "B.Tech IT",
+      "B.Tech EE",
+      "M.Tech"
+    ],
+    "eligibility": {
+      "B.Sc CS": "12th standard with 50% minimum marks",
+      "B.Tech CSE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech ECE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech IT": "12th with 60% in PCM + JEE Main / State Entrance",
+      "B.Tech EE": "12th with 60% in PCM + JEE Main / State Entrance",
+      "M.Tech": "B.Tech / B.E. with 60% + GATE qualified"
+    },
+    "contact": "+91-9000859879",
+    "website": "https://www.kolkata-ec-199.edu.in",
+    "averagePackageLPA": 15.8,
+    "highestPackageLPA": 33,
+    "placementPercentage": 95.9,
+    "topRecruiters": [
+      "Microsoft",
+      "TCS",
+      "Cognizant",
+      "Deloitte",
+      "PwC",
+      "Adobe"
+    ]
+  }
+]
