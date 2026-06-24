@@ -33,6 +33,7 @@ loadLocalEnvironment();
 const app = express();
 const PORT = process.env.PORT || 5001;
 const JWT_SECRET = process.env.JWT_SECRET || "careerforge_jwt_secret_key_13579_auth";
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY || "";
 const isProduction = process.env.NODE_ENV === "production";
 const allowedOrigin = process.env.CORS_ORIGIN || true;
 const __filename = fileURLToPath(import.meta.url);
@@ -50,6 +51,67 @@ app.use(express.json({ limit: "1mb" }));
 
 app.get("/api/health", (_req, res) => {
   res.json({ ok: true, service: "careerforge-api" });
+});
+
+app.post("/api/ai/chat", async (req, res) => {
+  const { message, history, model } = req.body || {};
+
+  if (!message || typeof message !== "string") {
+    return res.status(400).json({ message: "Message text is required" });
+  }
+
+  const buildFallbackResponse = () => {
+    return {
+      text: `Sorry, I couldn't reach the AI server right now. Please try again in a moment or use the local assistant fallback.`,
+      category: "unsupported"
+    };
+  };
+
+  if (!OPENAI_API_KEY) {
+    return res.status(503).json({ message: "OpenAI API key is not configured" });
+  }
+
+  try {
+    const openAiResponse = await fetch("https://api.openai.com/v1/chat/completions", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${OPENAI_API_KEY}`
+      },
+      body: JSON.stringify({
+        model: "gpt-4o-mini",
+        messages: [
+          { role: "system", content: "You are CareerForge AI, a smart programming and college placement assistant." },
+          ...(Array.isArray(history)
+            ? history.map((item) => ({ role: item.role === "ai" ? "assistant" : "user", content: item.text }))
+            : []),
+          { role: "user", content: message }
+        ],
+        temperature: 0.8,
+        max_tokens: 700,
+        top_p: 1,
+        frequency_penalty: 0,
+        presence_penalty: 0
+      })
+    });
+
+    if (!openAiResponse.ok) {
+      const errorBody = await openAiResponse.text().catch(() => "");
+      console.error("OpenAI error:", openAiResponse.status, errorBody);
+      return res.status(502).json(buildFallbackResponse());
+    }
+
+    const payload = await openAiResponse.json();
+    const assistantText = payload?.choices?.[0]?.message?.content;
+    if (!assistantText || typeof assistantText !== "string") {
+      return res.status(502).json(buildFallbackResponse());
+    }
+
+    res.json({ text: assistantText, category: model === "College Selection DB" ? "college" : model === "DSA Coach" ? "dsa" : model === "SQL Trainer" ? "sql" : "placement" });
+  } catch (error) {
+    console.error("AI chat error:", error);
+    res.status(500).json(buildFallbackResponse());
+  }
 });
 
 // Optional authentication middleware (supports guest & logged-in user routing)

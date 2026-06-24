@@ -309,41 +309,7 @@ export function UserDashboard({ dark, user }: UserDashboardProps) {
           </div>
         </div>
 
-        {/* Quick Placement Links */}
-        <div className={`rounded-3xl border p-6 ${
-          dark ? "bg-[#0e1528]/80 border-white/[.07]" : "bg-white border-slate-200/80 shadow-sm"
-        }`}>
-          <h4 className={`text-base font-bold mb-4 flex items-center gap-2 ${dark ? "text-white" : "text-slate-900"}`}>
-            <Trophy size={16} className="text-accent" /> Placement Operations &amp; Prep
-          </h4>
-          <div className="space-y-3">
-            {[
-              { label: "Search & Compare Delhi NCR Colleges", desc: "Compare fees, courses, placements", action: "Search", link: "college-finder" },
-              { label: "Review Resume ATS Format Checklist", desc: "Validate STAR formatting criteria", action: "Resume", link: "ai-chat" },
-              { label: "Solve DSA Coding Problems & Tests", desc: "Access 10,000+ custom challenges", action: "Solve", link: "coding" },
-            ].map((lnk, i) => (
-              <div key={i} className={`p-3.5 rounded-2xl border flex items-center justify-between gap-4 transition-all hover:translate-x-1 ${
-                dark ? "bg-[#070c1a]/60 border-white/[.05] hover:border-white/10" : "bg-slate-50 border-slate-100 hover:bg-slate-100/50"
-              }`}>
-                <div>
-                  <p className={`text-[12.5px] font-bold ${dark ? "text-slate-200" : "text-slate-800"}`}>{lnk.label}</p>
-                  <p className={`text-[10px] mt-1 ${dark ? "text-slate-500" : "text-slate-400"}`}>{lnk.desc}</p>
-                </div>
-                <button
-                  onClick={() => {
-                    const event = new CustomEvent("changeView", { detail: lnk.link });
-                    window.dispatchEvent(event);
-                  }}
-                  className={`px-3 py-1.5 rounded-xl text-[10px] font-bold flex items-center gap-0.5 shrink-0 ${
-                    dark ? "bg-white/[.05] text-slate-300 hover:bg-white/[.10]" : "bg-white border border-slate-200 text-slate-600 hover:bg-slate-50 shadow-sm"
-                  }`}
-                >
-                  Go <ChevronRight size={11} />
-                </button>
-              </div>
-            ))}
-          </div>
-        </div>
+
       </div>
     </section>
   );

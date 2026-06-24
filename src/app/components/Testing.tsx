@@ -1,8 +1,46 @@
 import { useState, useEffect } from "react";
-import { Clock, ShieldCheck, ChevronRight, CheckCircle, XCircle, RefreshCw, AlertCircle, Play } from "lucide-react";
+import { Clock, ShieldCheck, ChevronRight, CheckCircle, XCircle, RefreshCw, AlertCircle, Play, Code2, Zap } from "lucide-react";
 import { SectionHead, Grad } from "./SectionHead";
 
 interface TestingProps { dark: boolean }
+
+// Utility to get daily seed for consistent random selection
+const getDailySeed = () => {
+  const today = new Date();
+  return today.getFullYear() * 10000 + (today.getMonth() + 1) * 100 + today.getDate();
+};
+
+// Seeded random number generator
+const seededRandom = (seed: number) => {
+  const x = Math.sin(seed) * 10000;
+  return x - Math.floor(x);
+};
+
+// Get random coding questions for the day
+const getDailyCodingQuestions = (allQuestions: any[], count: number = 3) => {
+  if (allQuestions.length === 0) return [];
+  const maxCount = Math.min(count, allQuestions.length);
+  const seed = getDailySeed();
+  const indices = new Set<number>();
+  let attempt = 0;
+
+  while (indices.size < maxCount && attempt < 20) {
+    const randomIdx = Math.floor(seededRandom(seed + attempt) * allQuestions.length);
+    indices.add(randomIdx);
+    attempt += 1;
+  }
+
+  const result = Array.from(indices).slice(0, maxCount);
+  if (result.length < maxCount) {
+    for (let i = 0; result.length < maxCount && i < allQuestions.length; i += 1) {
+      if (!indices.has(i)) {
+        result.push(i);
+      }
+    }
+  }
+
+  return result.map(i => allQuestions[i]);
+};
 
 const TESTS = [
   {
@@ -107,36 +145,54 @@ const TESTS = [
         explanation: "Keys help React identify items uniquely across renders, giving elements a stable identity and allowing React to reuse DOM structures rather than recreating them."
       }
     ]
+  },
+  {
+    id: "daily-coding",
+    title: "Daily Coding Challenge",
+    desc: "2-3 random coding problems refreshed daily. Code in C, C++, Java, Python, or JavaScript. Perfect for daily practice and streaks!",
+    duration: 900, // 15 mins
+    difficulty: "Medium",
+    isDailyChallenge: true,
+    questions: [
+      {
+        id: 101,
+        question: "Reverse a String: Write a function to reverse a given string without using built-in reverse methods.",
+        languages: { python: "def reverse_string(s):\n    pass", java: "public String reverseString(String s) {\n    // Your code here\n}", cpp: "string reverseString(string s) {\n    // Your code here\n}", c: "void reverseString(char* s) {\n    // Your code here\n}" },
+        examples: "Input: 'hello'\nOutput: 'olleh'\n\nInput: 'CareerForge'\nOutput: 'egroFreeraC'",
+        hints: ["Use two pointers approach", "Swap characters from start and end", "Time Complexity: O(n), Space: O(1)"],
+        correct: 0,
+        explanation: "Use two-pointer technique: iterate from both ends and swap characters until pointers meet. Time O(n), Space O(1) for in-place or O(n) if creating new string."
+      },
+      {
+        id: 102,
+        question: "Find Missing Number: Given an array containing n distinct numbers from 0 to n, find the missing number.",
+        languages: { python: "def findMissing(nums):\n    pass", java: "public int findMissing(int[] nums) {\n    // Your code here\n}", cpp: "int findMissing(vector<int>& nums) {\n    // Your code here\n}", c: "int findMissing(int* nums, int n) {\n    // Your code here\n}" },
+        examples: "Input: [3, 0, 1]\nOutput: 2\n\nInput: [9, 6, 4, 2, 3, 5, 7, 0, 1]\nOutput: 8",
+        hints: ["Use sum formula: n*(n+1)/2", "Calculate expected sum - actual sum", "Time Complexity: O(n)"],
+        correct: 0,
+        explanation: "Expected sum = n*(n+1)/2. Subtract actual sum from expected to get missing number. Optimal: O(n) time, O(1) space."
+      },
+      {
+        id: 103,
+        question: "Two Sum: Find two numbers in an array that add up to a target sum.",
+        languages: { python: "def twoSum(nums, target):\n    pass", java: "public int[] twoSum(int[] nums, int target) {\n    // Your code here\n}", cpp: "vector<int> twoSum(vector<int>& nums, int target) {\n    // Your code here\n}", c: "int* twoSum(int* nums, int n, int target) {\n    // Your code here\n}" },
+        examples: "Input: nums=[2,7,11,15], target=9\nOutput: [0,1]\n\nInput: nums=[3,2,4], target=6\nOutput: [1,2]",
+        hints: ["Use hash map for O(n) solution", "Store num -> index in map", "Time: O(n), Space: O(n)"],
+        correct: 0,
+        explanation: "Use a hash map to store (num, index). For each num, check if (target - num) exists in map. Time O(n), Space O(n)."
+      }
+    ]
   }
 ];
 
 export function Testing({ dark }: TestingProps) {
   const [activeTest, setActiveTest] = useState<typeof TESTS[0] | null>(null);
-  const [dailyTest, setDailyTest] = useState<typeof TESTS[0] | null>(null);
-  const [dailyFetchError, setDailyFetchError] = useState<string | null>(null);
+  const [selectedLanguage, setSelectedLanguage] = useState("python");
+  const [userCode, setUserCode] = useState("");
   const [currentIdx, setCurrentIdx] = useState(0);
   const [answers, setAnswers] = useState<Record<number, number>>({});
   const [timeLeft, setTimeLeft] = useState(0);
   const [isFinished, setIsFinished] = useState(false);
-
-  useEffect(() => {
-    const loadDailyTest = async () => {
-      try {
-        const res = await fetch("/api/testing/daily");
-        if (!res.ok) {
-          const payload = await res.json().catch(() => ({}));
-          throw new Error(payload.message || "Unable to load daily challenge");
-        }
-        const testData = await res.json();
-        setDailyTest(testData);
-      } catch (error: any) {
-        console.error("Daily testing load failed:", error);
-        setDailyFetchError(error?.message || "Unable to load daily challenge");
-      }
-    };
-
-    loadDailyTest();
-  }, []);
 
   // Timer effect
   useEffect(() => {
@@ -159,10 +215,22 @@ export function Testing({ dark }: TestingProps) {
   }, [activeTest, isFinished]);
 
   const handleStart = (test: typeof TESTS[0]) => {
-    setActiveTest(test);
+    const questionSet = test.id === "daily-coding"
+      ? getDailyCodingQuestions(test.questions, 2)
+      : test.questions;
+
+    if (!questionSet || questionSet.length === 0) {
+      alert("Unable to start assessment: no questions available.");
+      return;
+    }
+
+    const testToStart = { ...test, questions: questionSet };
+    setActiveTest(testToStart);
     setCurrentIdx(0);
     setAnswers({});
     setIsFinished(false);
+    setSelectedLanguage("python");
+    setUserCode(questionSet[0]?.languages?.python || "");
   };
 
   const handleSelectOption = (qId: number, optIdx: number) => {
@@ -222,16 +290,8 @@ export function Testing({ dark }: TestingProps) {
           />
 
           <div className="space-y-4 max-w-4xl mx-auto">
-            {dailyFetchError ? (
-              <div className={`rounded-3xl border p-5 ${dark ? "bg-[#0e1528] border-red-500/20" : "bg-red-50 border-red-200"}`}>
-                <p className={`text-[12px] ${dark ? "text-red-300" : "text-red-700"}`}>
-                  Daily coding challenge could not be loaded: {dailyFetchError}
-                </p>
-              </div>
-            ) : null}
-
             <div className="grid md:grid-cols-2 gap-6">
-              {[...(dailyTest ? [dailyTest] : []), ...TESTS].map((test) => (
+              {TESTS.map((test) => (
                 <div
                   key={test.id}
                   className={`rounded-3xl border p-6 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1 ${
@@ -251,9 +311,9 @@ export function Testing({ dark }: TestingProps) {
                       }`}>
                         {test.difficulty}
                       </span>
-                      {test.id === "daily-coding-challenge" ? (
-                        <span className="text-[10px] uppercase tracking-widest font-semibold text-sky-500 bg-sky-500/10 px-2 py-1 rounded-full">
-                          Daily Challenge
+                      {test.id === "daily-coding-challenge" || test.id === "daily-coding" ? (
+                        <span className="text-[10px] uppercase tracking-widest font-semibold text-sky-500 bg-sky-500/10 px-2 py-1 rounded-full flex items-center gap-1">
+                          <Zap size={10} /> Daily Challenge
                         </span>
                       ) : null}
                       <span className={`text-[11px] flex items-center gap-1 font-semibold ${dark ? "text-slate-500" : "text-slate-400"}`}>
@@ -349,36 +409,96 @@ export function Testing({ dark }: TestingProps) {
                 </p>
               </div>
 
-              {/* Options */}
-              <div className="space-y-2.5">
-                {q.options.map((opt, idx) => {
-                  const selected = answers[q.id] === idx;
-                  return (
-                    <button
-                      key={idx}
-                      onClick={() => handleSelectOption(q.id, idx)}
-                      className={`w-full flex items-center gap-3 sm:gap-4 p-3.5 sm:p-4 rounded-2xl border text-left transition-all ${
-                        selected
-                          ? "bg-primary/10 border-primary text-primary"
-                          : dark
-                            ? "bg-[#0e1528] border-white/[.06] text-slate-300 hover:bg-white/[.03]"
-                            : "bg-white border-slate-200/80 text-slate-700 hover:bg-slate-50"
-                      }`}
-                    >
-                      <span className={`w-6 h-6 rounded-lg flex items-center justify-center text-[11px] font-bold border transition-colors ${
-                        selected
-                          ? "bg-primary border-primary text-white"
-                          : dark
-                            ? "border-white/10 text-slate-500"
-                            : "border-slate-300 text-slate-400"
-                      }`}>
-                        {String.fromCharCode(65 + idx)}
-                      </span>
-                      <span className="text-[13px] font-semibold">{opt}</span>
-                    </button>
-                  );
-                })}
-              </div>
+              {/* Coding Challenge - Show code editor and examples */}
+              {(activeTest.isDailyChallenge || (q as any).languages) ? (
+                <div className="space-y-4">
+                  {/* Language Selector */}
+                  <div className="flex gap-2 flex-wrap">
+                    {["python", "java", "cpp", "c"].map((lang) => (
+                      <button
+                        key={lang}
+                        onClick={() => {
+                          setSelectedLanguage(lang);
+                          setUserCode((q as any).languages?.[lang] || "");
+                        }}
+                        className={`px-3 py-1.5 rounded-lg text-[12px] font-semibold border transition-all ${
+                          selectedLanguage === lang
+                            ? "bg-primary text-white border-primary"
+                            : dark
+                              ? "bg-transparent border-white/[.06] text-slate-300 hover:border-white/20"
+                              : "bg-slate-50 border-slate-200 text-slate-600 hover:border-slate-300"
+                        }`}
+                      >
+                        <Code2 size={13} className="inline mr-1" />
+                        {lang.toUpperCase()}
+                      </button>
+                    ))}
+                  </div>
+
+                  {/* Code Editor */}
+                  <div className={`p-4 rounded-2xl border font-mono text-[11px] ${dark ? "bg-[#0a0e1a] border-white/[.06]" : "bg-slate-50 border-slate-200"}`}>
+                    <textarea
+                      value={userCode}
+                      onChange={(e) => setUserCode(e.target.value)}
+                      placeholder="Write your code here..."
+                      className={`w-full h-48 bg-transparent outline-none resize-none ${dark ? "text-slate-300" : "text-slate-700"}`}
+                    />
+                  </div>
+
+                  {/* Examples */}
+                  {(q as any).examples && (
+                    <div className={`p-4 rounded-2xl border ${dark ? "bg-white/[.02] border-white/[.06]" : "bg-slate-50 border-slate-200"}`}>
+                      <p className={`text-[11px] font-bold mb-2 ${dark ? "text-slate-300" : "text-slate-600"}`}>Examples:</p>
+                      <p className={`text-[11px] font-mono whitespace-pre-wrap ${dark ? "text-slate-400" : "text-slate-600"}`}>
+                        {(q as any).examples}
+                      </p>
+                    </div>
+                  )}
+
+                  {/* Hints */}
+                  {(q as any).hints && (
+                    <div className={`p-4 rounded-2xl border ${dark ? "bg-amber-500/[.08] border-amber-500/20" : "bg-amber-50 border-amber-200"}`}>
+                      <p className={`text-[11px] font-bold mb-2 ${dark ? "text-amber-300" : "text-amber-700"}`}>💡 Hints:</p>
+                      <ul className={`text-[11px] space-y-1 ${dark ? "text-amber-200/70" : "text-amber-700"}`}>
+                        {(q as any).hints?.map((hint: string, idx: number) => (
+                          <li key={idx}>• {hint}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                </div>
+              ) : (
+                /* Multiple Choice Options */
+                <div className="space-y-2.5">
+                  {(q as any).options?.map((opt: string, idx: number) => {
+                    const selected = answers[q.id] === idx;
+                    return (
+                      <button
+                        key={idx}
+                        onClick={() => handleSelectOption(q.id, idx)}
+                        className={`w-full flex items-center gap-3 sm:gap-4 p-3.5 sm:p-4 rounded-2xl border text-left transition-all ${
+                          selected
+                            ? "bg-primary/10 border-primary text-primary"
+                            : dark
+                              ? "bg-[#0e1528] border-white/[.06] text-slate-300 hover:bg-white/[.03]"
+                              : "bg-white border-slate-200/80 text-slate-700 hover:bg-slate-50"
+                        }`}
+                      >
+                        <span className={`w-6 h-6 rounded-lg flex items-center justify-center text-[11px] font-bold border transition-colors ${
+                          selected
+                            ? "bg-primary border-primary text-white"
+                            : dark
+                              ? "border-white/10 text-slate-500"
+                              : "border-slate-300 text-slate-400"
+                        }`}>
+                          {String.fromCharCode(65 + idx)}
+                        </span>
+                        <span className="text-[13px] font-semibold">{opt}</span>
+                      </button>
+                    );
+                  })}
+                </div>
+              )}
 
               {/* Navigation Actions */}
               <div className="flex flex-wrap justify-between items-center gap-3 pt-4 border-t border-slate-200/50 dark:border-white/[.07]">
@@ -523,20 +643,39 @@ export function Testing({ dark }: TestingProps) {
                 </div>
 
                 <div className="grid grid-cols-2 gap-3 mt-4">
-                  <div className={`p-2.5 rounded-xl text-[11px] ${
-                    isCorrect 
-                      ? dark ? "bg-emerald-500/5 text-emerald-400" : "bg-emerald-50 text-emerald-700" 
-                      : dark ? "bg-red-500/5 text-red-400" : "bg-red-50 text-red-700"
-                  }`}>
-                    <span className="font-extrabold uppercase block mb-0.5 text-[9px]">Your Answer</span>
-                    {chosen !== undefined ? question.options[chosen] : "Not Answered"}
-                  </div>
-                  <div className={`p-2.5 rounded-xl text-[11px] ${
-                    dark ? "bg-emerald-500/5 text-emerald-400" : "bg-emerald-50 text-emerald-700"
-                  }`}>
-                    <span className="font-extrabold uppercase block mb-0.5 text-[9px]">Correct Answer</span>
-                    {question.options[question.correct]}
-                  </div>
+                  {(question as any).languages ? (
+                    <>
+                      <div className={`p-2.5 rounded-xl text-[11px] ${
+                        dark ? "bg-blue-500/5 text-blue-400" : "bg-blue-50 text-blue-700"
+                      }`}>
+                        <span className="font-extrabold uppercase block mb-0.5 text-[9px]">Language</span>
+                        {selectedLanguage.toUpperCase()}
+                      </div>
+                      <div className={`p-2.5 rounded-xl text-[11px] ${
+                        dark ? "bg-slate-500/5 text-slate-400" : "bg-slate-50 text-slate-700"
+                      }`}>
+                        <span className="font-extrabold uppercase block mb-0.5 text-[9px]">Status</span>
+                        Code Submitted
+                      </div>
+                    </>
+                  ) : (
+                    <>
+                      <div className={`p-2.5 rounded-xl text-[11px] ${
+                        isCorrect 
+                          ? dark ? "bg-emerald-500/5 text-emerald-400" : "bg-emerald-50 text-emerald-700" 
+                          : dark ? "bg-red-500/5 text-red-400" : "bg-red-50 text-red-700"
+                      }`}>
+                        <span className="font-extrabold uppercase block mb-0.5 text-[9px]">Your Answer</span>
+                        {chosen !== undefined ? (question as any).options[chosen] : "Not Answered"}
+                      </div>
+                      <div className={`p-2.5 rounded-xl text-[11px] ${
+                        dark ? "bg-emerald-500/5 text-emerald-400" : "bg-emerald-50 text-emerald-700"
+                      }`}>
+                        <span className="font-extrabold uppercase block mb-0.5 text-[9px]">Correct Answer</span>
+                        {(question as any).options[question.correct]}
+                      </div>
+                    </>
+                  )}
                 </div>
 
                 <div className="mt-4 flex gap-2.5 items-start">

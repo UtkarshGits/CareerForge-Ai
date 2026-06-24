@@ -13,8 +13,6 @@ interface NavbarProps {
 
 const links = [
   { id: "hero",           label: "Home" },
-  { id: "ai-chat",        label: "AI Chat" },
-  { id: "college-finder", label: "AI College Finder" },
   { id: "interview-prep", label: "Interview Prep" },
   { id: "testing",        label: "Testing Center" },
   { id: "roadmaps",       label: "Roadmaps" },

@@ -2,7 +2,6 @@ import { ArrowRight, Star, TrendingUp, Brain, GraduationCap, CheckCircle, Flame,
 
 interface HeroProps {
   dark: boolean;
-  onColleges: () => void;
   onInterview: () => void;
 }
 
@@ -12,7 +11,7 @@ const BADGES = [
   { icon: "⚡", text: "AI Powered" },
 ];
 
-export function Hero({ dark, onColleges, onInterview }: HeroProps) {
+export function Hero({ dark, onInterview }: HeroProps) {
   const bg = dark
     ? "bg-[#070c1a]"
     : "bg-gradient-to-br from-[#f5f7ff] via-[#eef1fb] to-[#f0ebff]";
@@ -66,14 +65,6 @@ export function Hero({ dark, onColleges, onInterview }: HeroProps) {
 
             {/* CTA row */}
             <div className="flex flex-col sm:flex-row gap-3 mb-10 sm:mb-14">
-              <button
-                onClick={onColleges}
-                className="group flex items-center justify-center gap-2 px-7 py-4 rounded-2xl text-white text-[15px] font-bold bg-primary hover:bg-primary/90 shadow-xl shadow-primary/30 hover:shadow-primary/50 transition-all duration-200 hover:-translate-y-0.5 active:translate-y-0"
-              >
-                <GraduationCap size={18} />
-                Explore Colleges
-                <ArrowRight size={16} className="group-hover:translate-x-0.5 transition-transform" />
-              </button>
               <button
                 onClick={onInterview}
                 className={`flex items-center justify-center gap-2 px-7 py-4 rounded-2xl text-[15px] font-bold border transition-all duration-200 hover:-translate-y-0.5 ${

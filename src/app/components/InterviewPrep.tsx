@@ -3,7 +3,7 @@ import { Code2, Brain, Users, Layers, Play, FileText, TrendingUp, Flame } from "
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, RadarChart, Radar, PolarGrid, PolarAngleAxis } from "recharts";
 import { SectionHead, Grad } from "./SectionHead";
 
-interface InterviewPrepProps { dark: boolean }
+interface InterviewPrepProps { dark: boolean; user: { solvedQuestions?: Array<string | number> } }
 
 const MODULES = [
   { id: "dsa",    Icon: Code2,    title: "DSA Practice",     desc: "Arrays · Trees · Graphs · DP",   pct: 72, solved: 324, total: 450, g: "from-[#2563eb] to-[#06b6d4]", c: "#2563eb" },
@@ -44,9 +44,36 @@ const TT_STYLE = (dark: boolean) => ({
   boxShadow: dark ? "0 8px 32px rgba(0,0,0,.5)" : "0 4px 16px rgba(0,0,0,.1)",
 });
 
-export function InterviewPrep({ dark }: InterviewPrepProps) {
+export function InterviewPrep({ dark, user }: InterviewPrepProps) {
   const [active, setActive] = useState("dsa");
-  const mod = MODULES.find(m => m.id === active)!;
+
+  const solvedQuestions = Array.isArray(user?.solvedQuestions)
+    ? user.solvedQuestions.map((id) => String(id))
+    : [];
+  const dsaSolvedCount = solvedQuestions.length;
+  const dsaTotalCount = 450;
+  const dsaCompletion = dsaTotalCount > 0 ? Math.round((dsaSolvedCount / dsaTotalCount) * 100) : 72;
+
+  const dynamicModules = MODULES.map((m) =>
+    m.id === "dsa"
+      ? {
+          ...m,
+          solved: dsaSolvedCount,
+          total: dsaTotalCount,
+          pct: Math.min(100, Math.max(0, dsaCompletion)),
+        }
+      : m
+  );
+  const mod = dynamicModules.find((m) => m.id === active)!;
+
+  const dynamicTopics = DSA_TOPICS.map((t) => ({
+    ...t,
+    solved: Math.min(t.total, Math.round((t.total / dsaTotalCount) * dsaSolvedCount)),
+  }));
+
+  const radarData = RADAR_DATA.map((item) =>
+    item.sub === "DSA" ? { ...item, A: dsaCompletion } : item
+  );
 
   return (
     <section id="interview-prep" className={`py-14 sm:py-20 lg:py-28 ${dark ? "bg-[#0a101f]" : "bg-muted/40"}`}>
@@ -66,7 +93,7 @@ export function InterviewPrep({ dark }: InterviewPrepProps) {
           {/* ── Module selector ── */}
           <aside className="space-y-2.5">
             <p className={`text-[10px] font-bold uppercase tracking-widest mb-4 ${dark ? "text-slate-600" : "text-slate-400"}`}>Modules</p>
-            {MODULES.map(m => {
+            {dynamicModules.map(m => {
               const on = m.id === active;
               const { Icon } = m;
               return (
@@ -108,9 +135,9 @@ export function InterviewPrep({ dark }: InterviewPrepProps) {
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4">
               {[
                 { l: "Day Streak",   v: "14", suf: "🔥", s: "Personal best!", color: "text-orange-400" },
-                { l: "Total Solved", v: "639",suf: "",    s: "All time",       color: "text-primary" },
-                { l: "This Week",    v: "78", suf: "",    s: "+12 vs last week",color: "text-emerald-500" },
-                { l: "AI Score",     v: "87", suf: "/100",s: "+5 pts gained",  color: "text-accent" },
+                { l: "Total Solved", v: String(dsaSolvedCount), suf: "", s: "Coding practice", color: "text-primary" },
+                { l: "This Week",    v: String(Math.min(dsaSolvedCount, 78)), suf: "", s: "+12 vs last week", color: "text-emerald-500" },
+                { l: "AI Score",     v: `${Math.min(100, 60 + Math.round(dsaCompletion / 2))}`, suf: "/100", s: "+5 pts gained", color: "text-accent" },
               ].map(k => (
                 <div key={k.l} className={`rounded-2xl p-4 border ${dark ? "bg-[#0e1528] border-white/[.07]" : "bg-white border-slate-200/80"}`}>
                   <p className={`text-[10px] font-semibold uppercase tracking-wider mb-2 ${dark ? "text-slate-600" : "text-slate-400"}`}>{k.l}</p>
@@ -126,7 +153,7 @@ export function InterviewPrep({ dark }: InterviewPrepProps) {
               <div className={`rounded-3xl border p-5 ${dark ? "bg-[#0e1528] border-white/[.07]" : "bg-white border-slate-200/80"}`}>
                 <p className={`text-[12px] font-bold uppercase tracking-wider mb-5 ${dark ? "text-slate-500" : "text-slate-400"}`}>DSA Topic Breakdown</p>
                 <div className="space-y-3.5">
-                  {DSA_TOPICS.map(t => (
+                  {dynamicTopics.map(t => (
                     <div key={t.topic}>
                       <div className="flex justify-between mb-1.5">
                         <span className={`text-[12px] font-medium ${dark ? "text-slate-400" : "text-slate-600"}`}>{t.topic}</span>
@@ -150,7 +177,7 @@ export function InterviewPrep({ dark }: InterviewPrepProps) {
               <div className={`rounded-3xl border p-5 ${dark ? "bg-[#0e1528] border-white/[.07]" : "bg-white border-slate-200/80"}`}>
                 <p className={`text-[12px] font-bold uppercase tracking-wider mb-3 ${dark ? "text-slate-500" : "text-slate-400"}`}>Skill Radar</p>
                 <ResponsiveContainer width="100%" height={200}>
-                  <RadarChart data={RADAR_DATA}>
+                  <RadarChart data={radarData}>
                     <PolarGrid stroke={dark ? "rgba(255,255,255,.06)" : "rgba(0,0,0,.06)"} />
                     <PolarAngleAxis dataKey="sub" tick={{ fontSize: 10, fill: dark ? "#7c8dab" : "#94a3b8" }} />
                     <Radar dataKey="A" stroke="#2563eb" fill="#2563eb" fillOpacity={0.18} strokeWidth={2} />

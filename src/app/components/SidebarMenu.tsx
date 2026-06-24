@@ -1,19 +1,16 @@
-import { Home, Search, BookOpen, Route, Trophy, GraduationCap, Lock, Unlock, Shield, MessageSquare } from "lucide-react";
+import { Home, BookOpen, Route, Trophy, Lock, Shield } from "lucide-react";
 
 interface SidebarMenuProps {
   activeView: string;
   setActiveView: (view: string) => void;
   dark: boolean;
   isAuthenticated: boolean;
-  trialSearchesLeft: number;
 }
 
-export function SidebarMenu({ activeView, setActiveView, dark, isAuthenticated, trialSearchesLeft }: SidebarMenuProps) {
+export function SidebarMenu({ activeView, setActiveView, dark, isAuthenticated }: SidebarMenuProps) {
   
   const menuItems = [
     { id: "hero", label: "Dashboard", Icon: Home, guestAccessible: true },
-    { id: "ai-chat", label: "AI Chat (ChatGPT)", Icon: MessageSquare, guestAccessible: true, badge: "New" },
-    { id: "college-finder", label: "AI College Finder", Icon: GraduationCap, guestAccessible: true, badge: !isAuthenticated ? `${trialSearchesLeft} Left` : "Unlimited" },
     { id: "interview-prep", label: "Interview Prep", Icon: Trophy, guestAccessible: false },
     { id: "testing", label: "Testing Center", Icon: Shield, guestAccessible: false },
     { id: "roadmaps", label: "Career Roadmaps", Icon: Route, guestAccessible: false },

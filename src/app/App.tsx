@@ -4,20 +4,15 @@ import { Hero }          from "./components/Hero";
 import { Testimonials }  from "./components/Testimonials";
 import { Stats }         from "./components/Stats";
 import { Footer }        from "./components/Footer";
-import { AIAssistant }   from "./components/AIAssistant";
 import { SidebarMenu }   from "./components/SidebarMenu";
 import { LoginModal }    from "./components/LoginModal";
 import { Lock, Sparkles, ShieldCheck } from "lucide-react";
 
-const CollegeFinder = lazy(() => import("./components/CollegeFinder").then(module => ({ default: module.CollegeFinder })));
 const InterviewPrep = lazy(() => import("./components/InterviewPrep").then(module => ({ default: module.InterviewPrep })));
 const Roadmaps = lazy(() => import("./components/Roadmaps").then(module => ({ default: module.Roadmaps })));
 const CodingPractice = lazy(() => import("./components/CodingPractice").then(module => ({ default: module.CodingPractice })));
-const AIChat = lazy(() => import("./components/AIChat").then(module => ({ default: module.AIChat })));
 const UserDashboard = lazy(() => import("./components/UserDashboard").then(module => ({ default: module.UserDashboard })));
 const Testing = lazy(() => import("./components/Testing").then(module => ({ default: module.Testing })));
-
-const GUEST_SEARCH_LIMIT = 3;
 
 function getStoredValue(key: string) {
   try {
@@ -59,9 +54,6 @@ export default function App() {
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
   const [authModalMode, setAuthModalMode] = useState<"login" | "signup">("login");
 
-  // Guest trial search state
-  const [trialSearchesLeft, setTrialSearchesLeft] = useState(GUEST_SEARCH_LIMIT);
-
   // Sync dark class on <html>
   useEffect(() => {
     dark
@@ -69,10 +61,8 @@ export default function App() {
       : document.documentElement.classList.remove("dark");
   }, [dark]);
 
-  // Load trial search count for guests and listen to view change events
+  // Listen to view change events
   useEffect(() => {
-    setTrialSearchesLeft(Math.max(0, GUEST_SEARCH_LIMIT - getGuestSearchCount()));
-
     const handleViewChange = (e: Event) => {
       const customEvent = e as CustomEvent;
       setActiveView(customEvent.detail);
@@ -128,39 +118,6 @@ export default function App() {
     setIsAuthModalOpen(true);
   };
 
-  const handleCollegeSearchIncrement = async (currentCount: number): Promise<boolean> => {
-    const headers: Record<string, string> = { "Content-Type": "application/json" };
-    if (token) {
-      headers["Authorization"] = `Bearer ${token}`;
-    }
-
-    try {
-      const response = await fetch("/api/college/search", {
-        method: "POST",
-        headers,
-        body: JSON.stringify({ guestCount: currentCount }),
-      });
-
-      const data = await response.json().catch(() => ({ limitReached: true }));
-      
-      if (!response.ok) {
-        return false;
-      }
-
-      if (!token) {
-        // Update local count for guests
-        const nextCount = Math.min(GUEST_SEARCH_LIMIT, Math.max(0, currentCount) + 1);
-        setStoredValue("guestSearchCount", nextCount.toString());
-        setTrialSearchesLeft(Math.max(0, GUEST_SEARCH_LIMIT - nextCount));
-      }
-
-      return !data.limitReached;
-    } catch (error) {
-      console.error("Error updating search count:", error);
-      return false;
-    }
-  };
-
   return (
     <div className={`min-h-screen min-w-0 overflow-x-clip flex flex-col justify-between ${dark ? "bg-[#070c1a]" : "bg-background"}`}>
       {/* Global keyframes */}
@@ -192,7 +149,6 @@ export default function App() {
           setActiveView={setActiveView}
           dark={dark}
           isAuthenticated={!!user}
-          trialSearchesLeft={trialSearchesLeft}
         />
 
         {/* Main Section view wrapper */}
@@ -206,7 +162,6 @@ export default function App() {
                 <>
                   <Hero
                     dark={dark}
-                    onColleges={() => setActiveView("college-finder")}
                     onInterview={() => setActiveView("interview-prep")}
                   />
                   <Stats dark={dark} />
@@ -215,19 +170,9 @@ export default function App() {
               )
             )}
 
-            {activeView === "college-finder" && (
-              <CollegeFinder 
-                dark={dark} 
-                isAuthenticated={!!user}
-                trialSearchesLeft={trialSearchesLeft}
-                onSearchIncrement={handleCollegeSearchIncrement}
-                onOpenAuth={() => openAuth("signup")}
-              />
-            )}
-
             {activeView === "interview-prep" && (
               user ? (
-                <InterviewPrep dark={dark} />
+                <InterviewPrep dark={dark} user={user} />
               ) : (
                 <LockedView dark={dark} title="AI Interview Preparation" onOpenAuth={() => openAuth("signup")} />
               )
@@ -257,16 +202,11 @@ export default function App() {
               )
             )}
 
-            {activeView === "ai-chat" && (
-              <AIChat dark={dark} />
-            )}
           </div>
           </Suspense>
-          {activeView !== "ai-chat" && <Footer dark={dark} />}
+          <Footer dark={dark} />
         </main>
       </div>
-
-      <AIAssistant dark={dark} />
 
       {/* Authentication Modal */}
       <LoginModal 
